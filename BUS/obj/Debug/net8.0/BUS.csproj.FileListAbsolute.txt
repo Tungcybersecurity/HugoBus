@@ -1,0 +1,17 @@
+D:\AppDeTai\BUS\bin\Debug\net8.0\BUS.deps.json
+D:\AppDeTai\BUS\bin\Debug\net8.0\BUS.dll
+D:\AppDeTai\BUS\bin\Debug\net8.0\BUS.pdb
+D:\AppDeTai\BUS\bin\Debug\net8.0\DAO.dll
+D:\AppDeTai\BUS\bin\Debug\net8.0\DTO.dll
+D:\AppDeTai\BUS\bin\Debug\net8.0\DAO.pdb
+D:\AppDeTai\BUS\bin\Debug\net8.0\DTO.pdb
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.csproj.AssemblyReference.cache
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.AssemblyInfoInputs.cache
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.AssemblyInfo.cs
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.csproj.CoreCompileInputs.cache
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.csproj.Up2Date
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.dll
+D:\AppDeTai\BUS\obj\Debug\net8.0\refint\BUS.dll
+D:\AppDeTai\BUS\obj\Debug\net8.0\BUS.pdb
+D:\AppDeTai\BUS\obj\Debug\net8.0\ref\BUS.dll
