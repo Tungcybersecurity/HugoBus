@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cRTvk1FazVk0nXHROHXpjs/Y2XF/gYP450FqCP+xkfLwlhQN9Xj0TvLR11/0UxoKssvhhcAD/y5y5ukxlgJmrw==",
+  "dgSpecHash": "PRxM5reauwVmVtlaeAIWar75Qw/B6ZzS5yavrhzipLoN+olLWPZape9pTwhqVqXnNYb5LLyf/ckB88YdAutn9A==",
   "success": true,
-  "projectFilePath": "D:\\AppDeTai\\DAO\\DAO.csproj",
+  "projectFilePath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

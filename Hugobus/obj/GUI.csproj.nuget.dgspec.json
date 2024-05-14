@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AppDeTai\\Hugobus\\GUI.csproj": {}
+    "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj": {}
   },
   "projects": {
-    "D:\\AppDeTai\\BUS\\BUS.csproj": {
+    "D:\\Github\\AppDeTai\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppDeTai\\BUS\\BUS.csproj",
+        "projectUniqueName": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\AppDeTai\\BUS\\BUS.csproj",
+        "projectPath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\AppDeTai\\BUS\\obj\\",
+        "outputPath": "D:\\Github\\AppDeTai\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\AppDeTai\\DAO\\DAO.csproj": {
-                "projectPath": "D:\\AppDeTai\\DAO\\DAO.csproj"
+              "D:\\Github\\AppDeTai\\DAO\\DAO.csproj": {
+                "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj"
               },
-              "D:\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\AppDeTai\\DAO\\DAO.csproj": {
+    "D:\\Github\\AppDeTai\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppDeTai\\DAO\\DAO.csproj",
+        "projectUniqueName": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "D:\\AppDeTai\\DAO\\DAO.csproj",
+        "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\AppDeTai\\DAO\\obj\\",
+        "outputPath": "D:\\Github\\AppDeTai\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\AppDeTai\\DTO\\DTO.csproj": {
+    "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppDeTai\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\AppDeTai\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\AppDeTai\\DTO\\obj\\",
+        "outputPath": "D:\\Github\\AppDeTai\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\AppDeTai\\Hugobus\\GUI.csproj": {
+    "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AppDeTai\\Hugobus\\GUI.csproj",
+        "projectUniqueName": "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "D:\\AppDeTai\\Hugobus\\GUI.csproj",
+        "projectPath": "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\AppDeTai\\Hugobus\\obj\\",
+        "outputPath": "D:\\Github\\AppDeTai\\Hugobus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,11 +225,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\AppDeTai\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\AppDeTai\\BUS\\BUS.csproj"
+              "D:\\Github\\AppDeTai\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj"
               },
-              "D:\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
               }
             }
           }

@@ -1,4 +1,7 @@
-﻿namespace Hugobus
+﻿using GUI.Home;
+using GUI.Login;
+
+namespace Hugobus
 {
     internal static class Program
     {
@@ -8,8 +11,7 @@
         [STAThread]
         static void Main()
         {
-            Console.WriteLine("hi");
-            DAO.Connection.getConnection();
+            Application.Run(new Home());
 
         }
     }

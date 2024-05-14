@@ -9,3 +9,15 @@ D:\AppDeTai\DTO\obj\Debug\net8.0\DTO.dll
 D:\AppDeTai\DTO\obj\Debug\net8.0\refint\DTO.dll
 D:\AppDeTai\DTO\obj\Debug\net8.0\DTO.pdb
 D:\AppDeTai\DTO\obj\Debug\net8.0\ref\DTO.dll
+D:\Github\AppDeTai\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\Github\AppDeTai\DTO\bin\Debug\net8.0\DTO.dll
+D:\Github\AppDeTai\DTO\bin\Debug\net8.0\DTO.pdb
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.dll
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\DTO.pdb
+D:\Github\AppDeTai\DTO\obj\Debug\net8.0\ref\DTO.dll
