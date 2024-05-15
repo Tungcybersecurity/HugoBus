@@ -248,6 +248,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "DG.AdvancedDataGridView": {
+              "target": "Package",
+              "version": "[1.2.29301.14, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

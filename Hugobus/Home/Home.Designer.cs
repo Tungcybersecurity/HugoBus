@@ -41,6 +41,7 @@
             label1 = new Label();
             panelHome = new Panel();
             labelHome = new Label();
+            panelDisplay = new Panel();
             panelMenu.SuspendLayout();
             panel1.SuspendLayout();
             panelHome.SuspendLayout();
@@ -232,17 +233,26 @@
             labelHome.AutoSize = true;
             labelHome.Font = new Font("Segoe UI", 22F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelHome.ForeColor = Color.White;
-            labelHome.Location = new Point(457, 19);
+            labelHome.Location = new Point(487, 19);
             labelHome.Name = "labelHome";
-            labelHome.Size = new Size(157, 60);
+            labelHome.Size = new Size(497, 60);
             labelHome.TabIndex = 0;
-            labelHome.Text = "HOME";
+            labelHome.Text = "THÔNG TIN HỌC SINH";
+            // 
+            // panelDisplay
+            // 
+            panelDisplay.Dock = DockStyle.Fill;
+            panelDisplay.Location = new Point(300, 100);
+            panelDisplay.Name = "panelDisplay";
+            panelDisplay.Size = new Size(1058, 844);
+            panelDisplay.TabIndex = 2;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1358, 944);
+            Controls.Add(panelDisplay);
             Controls.Add(panelHome);
             Controls.Add(panelMenu);
             MinimumSize = new Size(1380, 1000);
@@ -272,5 +282,6 @@
         private Panel panelHome;
         private Label labelHome;
         private Label label1;
+        private Panel panelDisplay;
     }
 }

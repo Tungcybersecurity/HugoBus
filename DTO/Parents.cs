@@ -15,6 +15,7 @@ namespace DTO
         private string ngaysinh;
         private string email;
         private string sdt;
+        private string diachi;
 
         public Parents() { }
 
@@ -25,5 +26,6 @@ namespace DTO
         public string Ngaysinh { get => ngaysinh; set => ngaysinh = value; }
         public string Email { get => email; set => email = value; }
         public string Sdt { get => sdt; set => sdt = value; }
+        public string Diachi { get => diachi; set => diachi = value; }
     }
 }

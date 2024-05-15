@@ -76,3 +76,8 @@ D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.pdb
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\ref\GUI.dll
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Home.Home.resources
+D:\Github\AppDeTai\Hugobus\bin\Debug\net8.0-windows\AdvancedDataGridView.dll
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.StudentMain.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InfoStudent.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InfoStudent2.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InforStudent3.resources

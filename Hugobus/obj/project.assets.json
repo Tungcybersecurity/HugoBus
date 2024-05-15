@@ -15,6 +15,18 @@
           }
         }
       },
+      "DG.AdvancedDataGridView/1.2.29301.14": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows7.0/AdvancedDataGridView.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/AdvancedDataGridView.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Google.Protobuf/3.25.1": {
         "type": "package",
         "compile": {
@@ -595,6 +607,21 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "DG.AdvancedDataGridView/1.2.29301.14": {
+      "sha512": "wV8y27HDK1ZdnzRjIU9uHk2/kuTVGtd5ThCWiVO6OJN5OCbTMhLPQb94U7ytMw7dVvxTJ9fhxacJExHA6oN/zA==",
+      "type": "package",
+      "path": "dg.advanceddatagridview/1.2.29301.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AdvancedDataGridView_logo.png",
+        "LICENSE",
+        "dg.advanceddatagridview.1.2.29301.14.nupkg.sha512",
+        "dg.advanceddatagridview.nuspec",
+        "lib/net40/AdvancedDataGridView.dll",
+        "lib/net5.0-windows7.0/AdvancedDataGridView.dll"
       ]
     },
     "Google.Protobuf/3.25.1": {
@@ -1836,6 +1863,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "BUS >= 1.0.0",
+      "DG.AdvancedDataGridView >= 1.2.29301.14",
       "DTO >= 1.0.0"
     ]
   },
@@ -1889,6 +1917,12 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "DG.AdvancedDataGridView": {
+            "target": "Package",
+            "version": "[1.2.29301.14, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

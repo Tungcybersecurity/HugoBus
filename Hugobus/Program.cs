@@ -1,5 +1,7 @@
 ﻿using GUI.Home;
 using GUI.Login;
+using GUI.Student;
+using GUI.Student.InfomationStudent;
 
 namespace Hugobus
 {
@@ -11,8 +13,9 @@ namespace Hugobus
         [STAThread]
         static void Main()
         {
+            ApplicationConfiguration.Initialize();
             Application.Run(new Home());
-
+            
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI.Student;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace GUI.Home
     public partial class Home : Form
     {
         private bool isactive = false;
+        private Form activeform=null;
         public Home()
         {
             InitializeComponent();
@@ -29,7 +31,22 @@ namespace GUI.Home
                 }
             }
         }
-       
+
+        private void OpenChildForm(Form child, object btnSender)
+        {
+            if(activeform != null)
+            {
+                activeform.Close();
+            }
+            UpdateButtoApperance((Button)btnSender);
+            activeform = child;
+            child.TopLevel = false;
+            child.Dock = DockStyle.Fill;
+            this.panelDisplay.Controls.Add(child);
+            this.panelDisplay.Tag = child;
+            child.BringToFront();
+            child.Show();
+        }
         private void UpdateButtoApperance(Button button)
         {
           
@@ -42,7 +59,7 @@ namespace GUI.Home
         private void buttonStudent_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            OpenChildForm(new Student.StudentMain(), sender);
         }
 
         private void buttonQlTaiKhoan_Click(object sender, EventArgs e)

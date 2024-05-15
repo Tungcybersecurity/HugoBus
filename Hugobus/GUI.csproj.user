@@ -7,5 +7,17 @@
     <Compile Update="Login\Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Student\InfomationStudent\InforStudent3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\InfomationStudent\InfoStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\InfomationStudent\InfoStudent2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Student\StudentMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -9,24 +9,22 @@ namespace DAO
 {
     public class Connection
     {
-        public static void getConnection()
+        public MySqlConnection getConnection()
         {
             try
             {
                 string con = "server=127.0.0.1;uid=root;pwd=tunglanet123;database=bus007";
                 MySqlConnection conn = new MySqlConnection();
                 conn.ConnectionString = con;
-                conn.Open();
-                Console.WriteLine("Ket noi thanh cong");
+                return conn;
             }
-            catch (MySqlException ex){ 
+            catch (MySqlException ex) {
                 Console.WriteLine(ex.Message);
+                return null;
             }
         }
 
-        public static void Main(string[] args)
-        {
-            getConnection();
-        }
+        public Connection() { }
+        
     }
 }
