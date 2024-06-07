@@ -81,3 +81,10 @@ D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.StudentMain.reso
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InfoStudent.resources
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InfoStudent2.resources
 D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Student.InfomationStudent.InforStudent3.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Employee.Employee.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Employee.TaiXe.ADD.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Employee.TaiXe.Detail.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Employee.BaoMau.ADD.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.Employee.BaoMau.anh.Detail.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.UserAccount.useraccount.resources
+D:\Github\AppDeTai\Hugobus\obj\Debug\net8.0-windows\GUI.UserAccount.Detail.Detail.resources

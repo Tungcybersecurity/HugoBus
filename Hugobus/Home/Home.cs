@@ -65,7 +65,8 @@ namespace GUI.Home
         private void buttonQlTaiKhoan_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            labelHome.Text = "Thông tin tài khoản";
+            OpenChildForm(new UserAccount.useraccount(), sender);
         }
 
         private void buttonQLHợpĐồng_Click(object sender, EventArgs e)
@@ -93,8 +94,10 @@ namespace GUI.Home
         }
 
         private void buttonQLNhanVien_Click(object sender, EventArgs e)
-        {isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+        {
+            isactive = !isactive;
+            labelHome.Text = "Thông tin nhân viên";
+            OpenChildForm(new Employee.Employee(), sender);
         }
     }
 }

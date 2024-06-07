@@ -32,4 +32,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Employee\TaiXe\anh\" />
+  </ItemGroup>
+
 </Project>

@@ -61,7 +61,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(300, 944);
+            panelMenu.Size = new Size(300, 1022);
             panelMenu.TabIndex = 0;
             // 
             // buttonQLNhanVien
@@ -225,7 +225,7 @@
             panelHome.Dock = DockStyle.Top;
             panelHome.Location = new Point(300, 0);
             panelHome.Name = "panelHome";
-            panelHome.Size = new Size(1058, 100);
+            panelHome.Size = new Size(1078, 100);
             panelHome.TabIndex = 1;
             // 
             // labelHome
@@ -244,22 +244,22 @@
             panelDisplay.Dock = DockStyle.Fill;
             panelDisplay.Location = new Point(300, 100);
             panelDisplay.Name = "panelDisplay";
-            panelDisplay.Size = new Size(1058, 844);
+            panelDisplay.Size = new Size(1078, 922);
             panelDisplay.TabIndex = 2;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1358, 944);
+            ClientSize = new Size(1378, 1022);
             Controls.Add(panelDisplay);
             Controls.Add(panelHome);
             Controls.Add(panelMenu);
-            MinimumSize = new Size(1380, 1000);
+            MinimumSize = new Size(1400, 1078);
             Name = "Home";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
-            WindowState = FormWindowState.Minimized;
+            WindowState = FormWindowState.Maximized;
             panelMenu.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -55,6 +55,7 @@
             // 
             // dataGridViewHocSinh
             // 
+            dataGridViewHocSinh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewHocSinh.BackgroundColor = Color.White;
             dataGridViewHocSinh.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -81,7 +82,7 @@
             dataGridViewHocSinh.RowHeadersWidth = 62;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewHocSinh.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            dataGridViewHocSinh.Size = new Size(1159, 433);
+            dataGridViewHocSinh.Size = new Size(1330, 555);
             dataGridViewHocSinh.TabIndex = 0;
             dataGridViewHocSinh.CellClick += Event_CellClík;
             dataGridViewHocSinh.CellContentClick += content;
@@ -92,7 +93,6 @@
             ColumnId.HeaderText = "Id";
             ColumnId.MinimumWidth = 8;
             ColumnId.Name = "ColumnId";
-            ColumnId.Width = 150;
             // 
             // ColumnHo
             // 
@@ -100,7 +100,6 @@
             ColumnHo.HeaderText = "Họ";
             ColumnHo.MinimumWidth = 8;
             ColumnHo.Name = "ColumnHo";
-            ColumnHo.Width = 150;
             // 
             // ColumnTen
             // 
@@ -108,7 +107,6 @@
             ColumnTen.HeaderText = "Tên";
             ColumnTen.MinimumWidth = 8;
             ColumnTen.Name = "ColumnTen";
-            ColumnTen.Width = 150;
             // 
             // ColumnGioiTinh
             // 
@@ -116,7 +114,6 @@
             ColumnGioiTinh.HeaderText = "Giới tính";
             ColumnGioiTinh.MinimumWidth = 8;
             ColumnGioiTinh.Name = "ColumnGioiTinh";
-            ColumnGioiTinh.Width = 150;
             // 
             // ColumnNgaySinh
             // 
@@ -124,7 +121,6 @@
             ColumnNgaySinh.HeaderText = "Ngày sinh";
             ColumnNgaySinh.MinimumWidth = 8;
             ColumnNgaySinh.Name = "ColumnNgaySinh";
-            ColumnNgaySinh.Width = 150;
             // 
             // ColumnTruong
             // 
@@ -132,7 +128,6 @@
             ColumnTruong.HeaderText = "Trường";
             ColumnTruong.MinimumWidth = 8;
             ColumnTruong.Name = "ColumnTruong";
-            ColumnTruong.Width = 150;
             // 
             // ColumnLop
             // 
@@ -140,7 +135,6 @@
             ColumnLop.HeaderText = "Lớp";
             ColumnLop.MinimumWidth = 8;
             ColumnLop.Name = "ColumnLop";
-            ColumnLop.Width = 150;
             // 
             // ColumnTenDangNhap
             // 
@@ -148,7 +142,6 @@
             ColumnTenDangNhap.HeaderText = "Tên đăng nhập";
             ColumnTenDangNhap.MinimumWidth = 8;
             ColumnTenDangNhap.Name = "ColumnTenDangNhap";
-            ColumnTenDangNhap.Width = 150;
             // 
             // ColumnDelete
             // 
@@ -157,7 +150,6 @@
             ColumnDelete.MinimumWidth = 8;
             ColumnDelete.Name = "ColumnDelete";
             ColumnDelete.Resizable = DataGridViewTriState.True;
-            ColumnDelete.Width = 150;
             // 
             // ColumnChiTiet
             // 
@@ -166,12 +158,11 @@
             ColumnChiTiet.MinimumWidth = 8;
             ColumnChiTiet.Name = "ColumnChiTiet";
             ColumnChiTiet.Resizable = DataGridViewTriState.True;
-            ColumnChiTiet.Width = 150;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.search;
-            pictureBox1.Location = new Point(5, 450);
+            pictureBox1.Location = new Point(15, 608);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(150, 75);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -181,18 +172,17 @@
             // textBoxTimKiem
             // 
             textBoxTimKiem.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxTimKiem.Location = new Point(380, 475);
+            textBoxTimKiem.Location = new Point(390, 633);
             textBoxTimKiem.Name = "textBoxTimKiem";
             textBoxTimKiem.Size = new Size(333, 50);
             textBoxTimKiem.TabIndex = 2;
-         
             // 
             // comboBoxTimKiem
             // 
             comboBoxTimKiem.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBoxTimKiem.FormattingEnabled = true;
             comboBoxTimKiem.Items.AddRange(new object[] { "Trường", "Tên", "ID", "Tên đăng nhập" });
-            comboBoxTimKiem.Location = new Point(161, 487);
+            comboBoxTimKiem.Location = new Point(171, 645);
             comboBoxTimKiem.Name = "comboBoxTimKiem";
             comboBoxTimKiem.Size = new Size(173, 38);
             comboBoxTimKiem.TabIndex = 3;
@@ -209,7 +199,7 @@
             buttonupdate.FlatStyle = FlatStyle.Popup;
             buttonupdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonupdate.ForeColor = Color.White;
-            buttonupdate.Location = new Point(997, 465);
+            buttonupdate.Location = new Point(975, 623);
             buttonupdate.Name = "buttonupdate";
             buttonupdate.Size = new Size(150, 60);
             buttonupdate.TabIndex = 4;
@@ -223,7 +213,7 @@
             buttonTimkiem.FlatStyle = FlatStyle.Popup;
             buttonTimkiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonTimkiem.ForeColor = Color.White;
-            buttonTimkiem.Location = new Point(737, 475);
+            buttonTimkiem.Location = new Point(747, 633);
             buttonTimkiem.Name = "buttonTimkiem";
             buttonTimkiem.Size = new Size(150, 50);
             buttonTimkiem.TabIndex = 4;
@@ -236,7 +226,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1159, 723);
+            ClientSize = new Size(1330, 870);
             Controls.Add(buttonTimkiem);
             Controls.Add(buttonupdate);
             Controls.Add(comboBoxTimKiem);
