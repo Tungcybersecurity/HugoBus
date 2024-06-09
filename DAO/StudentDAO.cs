@@ -23,12 +23,13 @@ namespace DAO
                 string sql = "select * from hocsinh";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
                 cmd.CommandType = CommandType.Text;
-                MySqlDataAdapter dataAdapter  = new MySqlDataAdapter(cmd);
+                MySqlDataAdapter dataAdapter = new MySqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 dataAdapter.Fill(dt);
                 con.Close();
                 return dt;
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 return null;
@@ -66,10 +67,11 @@ namespace DAO
                 Console.WriteLine(ex.Message);
                 return null;
             }
-            finally { 
-                
-                con.Close() ;
-                
+            finally
+            {
+
+                con.Close();
+
             }
         }
 
@@ -98,12 +100,13 @@ namespace DAO
                 Console.WriteLine(ex.Message);
                 return false;
             }
-            finally { 
+            finally
+            {
                 con.Close();
             }
         }
 
-        public DataTable doDuLieuTimKiem(string loai , string value)
+        public DataTable doDuLieuTimKiem(string loai, string value)
         {
             string sql = "query";
             if (loai == "Tên")
@@ -191,7 +194,7 @@ namespace DAO
 
         }
         public static void Main(string[] args)
-        { 
+        {
         }
     }
 }

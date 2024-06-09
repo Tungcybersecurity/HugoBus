@@ -13,7 +13,7 @@ namespace DAO
         {
             try
             {
-                string con = "server=127.0.0.1;uid=root;pwd=tunglanet123;database=bus007";
+                string con = "server=127.0.0.1;uid=root;pwd=MyNewPass;database=bus007";
                 MySqlConnection conn = new MySqlConnection();
                 conn.ConnectionString = con;
                 return conn;
