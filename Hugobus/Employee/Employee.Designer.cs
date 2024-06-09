@@ -31,10 +31,10 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Employee));
             tabControlEmployee = new TabControl();
             tabPageTaiXe = new TabPage();
             button1 = new Button();
@@ -44,17 +44,6 @@
             textBoxTimKiem = new TextBox();
             pictureBox1 = new PictureBox();
             dataGridViewTaiXe = new DataGridView();
-            ColumnId = new DataGridViewTextBoxColumn();
-            ColumnHo = new DataGridViewTextBoxColumn();
-            ColumnTen = new DataGridViewTextBoxColumn();
-            ColumnGioiTinh = new DataGridViewTextBoxColumn();
-            ColumnNgaySinh = new DataGridViewTextBoxColumn();
-            ColumnCCCD = new DataGridViewTextBoxColumn();
-            ColumnEmail = new DataGridViewTextBoxColumn();
-            ColumnSDT = new DataGridViewTextBoxColumn();
-            Columndiachi = new DataGridViewTextBoxColumn();
-            ColumnDelete = new DataGridViewImageColumn();
-            ColumnChiTiet = new DataGridViewImageColumn();
             tabPageBaoMau = new TabPage();
             button3 = new Button();
             button4 = new Button();
@@ -74,6 +63,18 @@
             DiaChi = new DataGridViewTextBoxColumn();
             cotxoa = new DataGridViewImageColumn();
             cotsua = new DataGridViewImageColumn();
+            ColumnId = new DataGridViewTextBoxColumn();
+            ColumnHo = new DataGridViewTextBoxColumn();
+            ColumnTen = new DataGridViewTextBoxColumn();
+            ColumnGioiTinh = new DataGridViewTextBoxColumn();
+            ColumnNgaySinh = new DataGridViewTextBoxColumn();
+            ColumnCCCD = new DataGridViewTextBoxColumn();
+            ColumnEmail = new DataGridViewTextBoxColumn();
+            ColumnSDT = new DataGridViewTextBoxColumn();
+            Columndiachi = new DataGridViewTextBoxColumn();
+            ColumnDelete = new DataGridViewImageColumn();
+            ColumnChiTiet = new DataGridViewImageColumn();
+            ColumnIn = new DataGridViewImageColumn();
             tabControlEmployee.SuspendLayout();
             tabPageTaiXe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -203,7 +204,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridViewTaiXe.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewTaiXe.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTaiXe.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnCCCD, ColumnEmail, ColumnSDT, Columndiachi, ColumnDelete, ColumnChiTiet });
+            dataGridViewTaiXe.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnCCCD, ColumnEmail, ColumnSDT, Columndiachi, ColumnDelete, ColumnChiTiet, ColumnIn });
             dataGridViewTaiXe.Dock = DockStyle.Top;
             dataGridViewTaiXe.Location = new Point(3, 3);
             dataGridViewTaiXe.Name = "dataGridViewTaiXe";
@@ -222,96 +223,6 @@
             dataGridViewTaiXe.Size = new Size(1316, 510);
             dataGridViewTaiXe.TabIndex = 1;
             dataGridViewTaiXe.CellContentClick += content;
-            // 
-            // ColumnId
-            // 
-            ColumnId.DataPropertyName = "IdTaiXe";
-            ColumnId.HeaderText = "Id";
-            ColumnId.MinimumWidth = 8;
-            ColumnId.Name = "ColumnId";
-            ColumnId.Width = 150;
-            // 
-            // ColumnHo
-            // 
-            ColumnHo.DataPropertyName = "Ho";
-            ColumnHo.HeaderText = "Họ";
-            ColumnHo.MinimumWidth = 8;
-            ColumnHo.Name = "ColumnHo";
-            ColumnHo.Width = 150;
-            // 
-            // ColumnTen
-            // 
-            ColumnTen.DataPropertyName = "Ten";
-            ColumnTen.HeaderText = "Tên";
-            ColumnTen.MinimumWidth = 8;
-            ColumnTen.Name = "ColumnTen";
-            ColumnTen.Width = 150;
-            // 
-            // ColumnGioiTinh
-            // 
-            ColumnGioiTinh.DataPropertyName = "GioiTinh";
-            ColumnGioiTinh.HeaderText = "Giới tính";
-            ColumnGioiTinh.MinimumWidth = 8;
-            ColumnGioiTinh.Name = "ColumnGioiTinh";
-            ColumnGioiTinh.Width = 150;
-            // 
-            // ColumnNgaySinh
-            // 
-            ColumnNgaySinh.DataPropertyName = "NgaySinh";
-            ColumnNgaySinh.HeaderText = "Ngày sinh";
-            ColumnNgaySinh.MinimumWidth = 8;
-            ColumnNgaySinh.Name = "ColumnNgaySinh";
-            ColumnNgaySinh.Width = 150;
-            // 
-            // ColumnCCCD
-            // 
-            ColumnCCCD.DataPropertyName = "CCCD";
-            ColumnCCCD.HeaderText = "CCCD";
-            ColumnCCCD.MinimumWidth = 8;
-            ColumnCCCD.Name = "ColumnCCCD";
-            ColumnCCCD.Width = 150;
-            // 
-            // ColumnEmail
-            // 
-            ColumnEmail.DataPropertyName = "Email";
-            ColumnEmail.HeaderText = "Email";
-            ColumnEmail.MinimumWidth = 8;
-            ColumnEmail.Name = "ColumnEmail";
-            ColumnEmail.Width = 150;
-            // 
-            // ColumnSDT
-            // 
-            ColumnSDT.DataPropertyName = "SDT";
-            ColumnSDT.HeaderText = "SĐT";
-            ColumnSDT.MinimumWidth = 8;
-            ColumnSDT.Name = "ColumnSDT";
-            ColumnSDT.Width = 150;
-            // 
-            // Columndiachi
-            // 
-            Columndiachi.DataPropertyName = "diachi";
-            Columndiachi.HeaderText = "Địa chỉ";
-            Columndiachi.MinimumWidth = 8;
-            Columndiachi.Name = "Columndiachi";
-            Columndiachi.Width = 150;
-            // 
-            // ColumnDelete
-            // 
-            ColumnDelete.HeaderText = "";
-            ColumnDelete.Image = (Image)resources.GetObject("ColumnDelete.Image");
-            ColumnDelete.MinimumWidth = 8;
-            ColumnDelete.Name = "ColumnDelete";
-            ColumnDelete.Resizable = DataGridViewTriState.True;
-            ColumnDelete.Width = 150;
-            // 
-            // ColumnChiTiet
-            // 
-            ColumnChiTiet.HeaderText = "";
-            ColumnChiTiet.Image = (Image)resources.GetObject("ColumnChiTiet.Image");
-            ColumnChiTiet.MinimumWidth = 8;
-            ColumnChiTiet.Name = "ColumnChiTiet";
-            ColumnChiTiet.Resizable = DataGridViewTriState.True;
-            ColumnChiTiet.Width = 150;
             // 
             // tabPageBaoMau
             // 
@@ -527,6 +438,106 @@
             cotsua.Resizable = DataGridViewTriState.True;
             cotsua.Width = 150;
             // 
+            // ColumnId
+            // 
+            ColumnId.DataPropertyName = "IdTaiXe";
+            ColumnId.HeaderText = "Id";
+            ColumnId.MinimumWidth = 8;
+            ColumnId.Name = "ColumnId";
+            ColumnId.Width = 150;
+            // 
+            // ColumnHo
+            // 
+            ColumnHo.DataPropertyName = "Ho";
+            ColumnHo.HeaderText = "Họ";
+            ColumnHo.MinimumWidth = 8;
+            ColumnHo.Name = "ColumnHo";
+            ColumnHo.Width = 150;
+            // 
+            // ColumnTen
+            // 
+            ColumnTen.DataPropertyName = "Ten";
+            ColumnTen.HeaderText = "Tên";
+            ColumnTen.MinimumWidth = 8;
+            ColumnTen.Name = "ColumnTen";
+            ColumnTen.Width = 150;
+            // 
+            // ColumnGioiTinh
+            // 
+            ColumnGioiTinh.DataPropertyName = "GioiTinh";
+            ColumnGioiTinh.HeaderText = "Giới tính";
+            ColumnGioiTinh.MinimumWidth = 8;
+            ColumnGioiTinh.Name = "ColumnGioiTinh";
+            ColumnGioiTinh.Width = 150;
+            // 
+            // ColumnNgaySinh
+            // 
+            ColumnNgaySinh.DataPropertyName = "NgaySinh";
+            ColumnNgaySinh.HeaderText = "Ngày sinh";
+            ColumnNgaySinh.MinimumWidth = 8;
+            ColumnNgaySinh.Name = "ColumnNgaySinh";
+            ColumnNgaySinh.Width = 150;
+            // 
+            // ColumnCCCD
+            // 
+            ColumnCCCD.DataPropertyName = "CCCD";
+            ColumnCCCD.HeaderText = "CCCD";
+            ColumnCCCD.MinimumWidth = 8;
+            ColumnCCCD.Name = "ColumnCCCD";
+            ColumnCCCD.Width = 150;
+            // 
+            // ColumnEmail
+            // 
+            ColumnEmail.DataPropertyName = "Email";
+            ColumnEmail.HeaderText = "Email";
+            ColumnEmail.MinimumWidth = 8;
+            ColumnEmail.Name = "ColumnEmail";
+            ColumnEmail.Width = 150;
+            // 
+            // ColumnSDT
+            // 
+            ColumnSDT.DataPropertyName = "SDT";
+            ColumnSDT.HeaderText = "SĐT";
+            ColumnSDT.MinimumWidth = 8;
+            ColumnSDT.Name = "ColumnSDT";
+            ColumnSDT.Width = 150;
+            // 
+            // Columndiachi
+            // 
+            Columndiachi.DataPropertyName = "diachi";
+            Columndiachi.HeaderText = "Địa chỉ";
+            Columndiachi.MinimumWidth = 8;
+            Columndiachi.Name = "Columndiachi";
+            Columndiachi.Width = 150;
+            // 
+            // ColumnDelete
+            // 
+            ColumnDelete.HeaderText = "";
+            ColumnDelete.Image = (Image)resources.GetObject("ColumnDelete.Image");
+            ColumnDelete.MinimumWidth = 8;
+            ColumnDelete.Name = "ColumnDelete";
+            ColumnDelete.Resizable = DataGridViewTriState.True;
+            ColumnDelete.Width = 150;
+            // 
+            // ColumnChiTiet
+            // 
+            ColumnChiTiet.HeaderText = "";
+            ColumnChiTiet.Image = (Image)resources.GetObject("ColumnChiTiet.Image");
+            ColumnChiTiet.MinimumWidth = 8;
+            ColumnChiTiet.Name = "ColumnChiTiet";
+            ColumnChiTiet.Resizable = DataGridViewTriState.True;
+            ColumnChiTiet.Width = 150;
+            // 
+            // ColumnIn
+            // 
+            ColumnIn.HeaderText = "";
+            ColumnIn.Image = (Image)resources.GetObject("ColumnIn.Image");
+            ColumnIn.MinimumWidth = 8;
+            ColumnIn.Name = "ColumnIn";
+            ColumnIn.Resizable = DataGridViewTriState.True;
+            ColumnIn.SortMode = DataGridViewColumnSortMode.Automatic;
+            ColumnIn.Width = 150;
+            // 
             // Employee
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -568,17 +579,6 @@
         private TextBox textBoxTimKiemBM;
         private PictureBox pictureBox2;
         private DataGridView dataGridViewBaoMau;
-        private DataGridViewTextBoxColumn ColumnId;
-        private DataGridViewTextBoxColumn ColumnHo;
-        private DataGridViewTextBoxColumn ColumnTen;
-        private DataGridViewTextBoxColumn ColumnGioiTinh;
-        private DataGridViewTextBoxColumn ColumnNgaySinh;
-        private DataGridViewTextBoxColumn ColumnCCCD;
-        private DataGridViewTextBoxColumn ColumnEmail;
-        private DataGridViewTextBoxColumn ColumnSDT;
-        private DataGridViewTextBoxColumn Columndiachi;
-        private DataGridViewImageColumn ColumnDelete;
-        private DataGridViewImageColumn ColumnChiTiet;
         private DataGridViewTextBoxColumn cotid;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
@@ -590,5 +590,17 @@
         private DataGridViewTextBoxColumn DiaChi;
         private DataGridViewImageColumn cotxoa;
         private DataGridViewImageColumn cotsua;
+        private DataGridViewTextBoxColumn ColumnId;
+        private DataGridViewTextBoxColumn ColumnHo;
+        private DataGridViewTextBoxColumn ColumnTen;
+        private DataGridViewTextBoxColumn ColumnGioiTinh;
+        private DataGridViewTextBoxColumn ColumnNgaySinh;
+        private DataGridViewTextBoxColumn ColumnCCCD;
+        private DataGridViewTextBoxColumn ColumnEmail;
+        private DataGridViewTextBoxColumn ColumnSDT;
+        private DataGridViewTextBoxColumn Columndiachi;
+        private DataGridViewImageColumn ColumnDelete;
+        private DataGridViewImageColumn ColumnChiTiet;
+        private DataGridViewImageColumn ColumnIn;
     }
 }

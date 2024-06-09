@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
 
 namespace GUI.Student.InfomationStudent
 {
@@ -37,6 +38,20 @@ namespace GUI.Student.InfomationStudent
             textBoxTruong.Text=getst.Truong;
             textBoxLop.Text = getst.Lop;
             labelAccount.Text = "Account:" + getst.Tendangnhap;
+            if (!string.IsNullOrEmpty(getst.Filepathimage))
+            {
+                var request = WebRequest.Create(getst.Filepathimage);
+
+                using (var response = request.GetResponse())
+                using (var stream = response.GetResponseStream())
+                {
+                    pictureBox1.Image = Bitmap.FromStream(stream);
+                }
+
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            }
+            
 
         }
         private void InfoStudent2_Load(object sender, EventArgs e)

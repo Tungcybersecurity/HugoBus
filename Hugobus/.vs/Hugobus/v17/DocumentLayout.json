@@ -3,33 +3,41 @@
   "WorkspaceRootPath": "D:\\Github\\AppDeTai\\Hugobus\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\github\\appdetai\\dao\\useraccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E86224D1-9EDB-4231-8DBC-A7E76382112D}|..\\BUS\\BUS.csproj|d:\\github\\appdetai\\bus\\useraccountbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\github\\appdetai\\dao\\employeedriverdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Github\\AppDeTai\\Hugobus\\employee\\baomau\\anh\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\baomau\\anh\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86224D1-9EDB-4231-8DBC-A7E76382112D}|..\\BUS\\BUS.csproj|d:\\github\\appdetai\\bus\\employeedriverbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\useraccount\\detail\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:useraccount\\detail\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\useraccount\\detail\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:useraccount\\detail\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Github\\AppDeTai\\Hugobus\\useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:useraccount\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\github\\appdetai\\hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\github\\appdetai\\dao\\useraccountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Github\\AppDeTai\\Hugobus\\student\\infomationstudent\\infostudent2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:student\\infomationstudent\\infostudent2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Github\\AppDeTai\\Hugobus\\student\\studentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:student\\studentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,7 +47,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,67 +55,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserAccountBUS.cs",
-              "DocumentMoniker": "D:\\Github\\AppDeTai\\BUS\\UserAccountBUS.cs",
-              "RelativeDocumentMoniker": "..\\BUS\\UserAccountBUS.cs",
-              "ToolTip": "D:\\Github\\AppDeTai\\BUS\\UserAccountBUS.cs",
-              "RelativeToolTip": "..\\BUS\\UserAccountBUS.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAApwCwAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee\\Employee.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs",
+              "RelativeToolTip": "Employee\\Employee.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwD8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:48:51.268Z",
+              "WhenOpened": "2024-06-09T09:15:30.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "EmployeeDriverDAO.cs",
               "DocumentMoniker": "D:\\Github\\AppDeTai\\DAO\\EmployeeDriverDAO.cs",
               "RelativeDocumentMoniker": "..\\DAO\\EmployeeDriverDAO.cs",
               "ToolTip": "D:\\Github\\AppDeTai\\DAO\\EmployeeDriverDAO.cs",
               "RelativeToolTip": "..\\DAO\\EmployeeDriverDAO.cs",
-              "ViewState": "AQIAALQAAAAAAAAAAAAowL8AAAA7AAAA",
+              "ViewState": "AQIAAAoBAAAAAAAAAAAswB8BAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:45:04.051Z",
+              "WhenOpened": "2024-06-09T09:05:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeDriverBus.cs",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\BUS\\EmployeeDriverBus.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\EmployeeDriverBus.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\BUS\\EmployeeDriverBus.cs",
+              "RelativeToolTip": "..\\BUS\\EmployeeDriverBus.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T09:05:19.817Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "useraccount.cs",
-              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs",
-              "RelativeDocumentMoniker": "UserAccount\\useraccount.cs",
-              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs",
-              "RelativeToolTip": "UserAccount\\useraccount.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDsAAAAMAAAA",
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee\\Employee.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs [Design]",
+              "RelativeToolTip": "Employee\\Employee.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:39:05.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T08:22:22.878Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "UserAccountDAO.cs",
               "DocumentMoniker": "D:\\Github\\AppDeTai\\DAO\\UserAccountDAO.cs",
               "RelativeDocumentMoniker": "..\\DAO\\UserAccountDAO.cs",
               "ToolTip": "D:\\Github\\AppDeTai\\DAO\\UserAccountDAO.cs",
               "RelativeToolTip": "..\\DAO\\UserAccountDAO.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAwwPQAAAAqAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:32:49.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T06:10:03.055Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "useraccount.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs",
-              "RelativeDocumentMoniker": "UserAccount\\useraccount.cs",
-              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs [Design]",
-              "RelativeToolTip": "UserAccount\\useraccount.cs [Design]",
+              "Title": "Detail.cs",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\BaoMau\\anh\\Detail.cs",
+              "RelativeDocumentMoniker": "Employee\\BaoMau\\anh\\Detail.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\BaoMau\\anh\\Detail.cs",
+              "RelativeToolTip": "Employee\\BaoMau\\anh\\Detail.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwB8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:30:57.584Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T06:05:13.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -117,34 +137,45 @@
               "RelativeDocumentMoniker": "UserAccount\\Detail\\Detail.cs",
               "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\Detail\\Detail.cs",
               "RelativeToolTip": "UserAccount\\Detail\\Detail.cs",
-              "ViewState": "AQIAAMgAAAAAAAAAAAAcwMQAAAARAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAQwA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:36:36.872Z",
+              "WhenOpened": "2024-06-09T06:10:35.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee\\Employee.cs",
-              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Employee\\Employee.cs [Design]",
-              "RelativeToolTip": "Employee\\Employee.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "useraccount.cs",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs",
+              "RelativeDocumentMoniker": "UserAccount\\useraccount.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\useraccount.cs",
+              "RelativeToolTip": "UserAccount\\useraccount.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwB0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:31:50.922Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T05:39:05.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Detail.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\Detail\\Detail.cs",
-              "RelativeDocumentMoniker": "UserAccount\\Detail\\Detail.cs",
-              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\UserAccount\\Detail\\Detail.cs [Design]",
-              "RelativeToolTip": "UserAccount\\Detail\\Detail.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "InfoStudent2.cs",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Student\\InfomationStudent\\InfoStudent2.cs",
+              "RelativeDocumentMoniker": "Student\\InfomationStudent\\InfoStudent2.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Student\\InfomationStudent\\InfoStudent2.cs",
+              "RelativeToolTip": "Student\\InfomationStudent\\InfoStudent2.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwC0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T05:24:59.859Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-09T06:02:43.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentMain.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\AppDeTai\\Hugobus\\Student\\StudentMain.cs",
+              "RelativeDocumentMoniker": "Student\\StudentMain.cs",
+              "ToolTip": "D:\\Github\\AppDeTai\\Hugobus\\Student\\StudentMain.cs [Design]",
+              "RelativeToolTip": "Student\\StudentMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T05:58:39.429Z"
             }
           ]
         }

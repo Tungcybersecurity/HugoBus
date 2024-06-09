@@ -33,6 +33,12 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             dataGridViewHocSinh = new DataGridView();
+            pictureBox1 = new PictureBox();
+            textBoxTimKiem = new TextBox();
+            comboBoxTimKiem = new ComboBox();
+            timer1 = new System.Windows.Forms.Timer(components);
+            buttonupdate = new Button();
+            buttonTimkiem = new Button();
             ColumnId = new DataGridViewTextBoxColumn();
             ColumnHo = new DataGridViewTextBoxColumn();
             ColumnTen = new DataGridViewTextBoxColumn();
@@ -41,14 +47,9 @@
             ColumnTruong = new DataGridViewTextBoxColumn();
             ColumnLop = new DataGridViewTextBoxColumn();
             ColumnTenDangNhap = new DataGridViewTextBoxColumn();
+            Columnfilepath = new DataGridViewTextBoxColumn();
             ColumnDelete = new DataGridViewImageColumn();
             ColumnChiTiet = new DataGridViewImageColumn();
-            pictureBox1 = new PictureBox();
-            textBoxTimKiem = new TextBox();
-            comboBoxTimKiem = new ComboBox();
-            timer1 = new System.Windows.Forms.Timer(components);
-            buttonupdate = new Button();
-            buttonTimkiem = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewHocSinh).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -67,7 +68,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridViewHocSinh.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewHocSinh.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewHocSinh.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnTruong, ColumnLop, ColumnTenDangNhap, ColumnDelete, ColumnChiTiet });
+            dataGridViewHocSinh.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnTruong, ColumnLop, ColumnTenDangNhap, Columnfilepath, ColumnDelete, ColumnChiTiet });
             dataGridViewHocSinh.Dock = DockStyle.Top;
             dataGridViewHocSinh.Location = new Point(0, 0);
             dataGridViewHocSinh.Name = "dataGridViewHocSinh";
@@ -86,78 +87,6 @@
             dataGridViewHocSinh.TabIndex = 0;
             dataGridViewHocSinh.CellClick += Event_CellClík;
             dataGridViewHocSinh.CellContentClick += content;
-            // 
-            // ColumnId
-            // 
-            ColumnId.DataPropertyName = "IdHocSinh";
-            ColumnId.HeaderText = "Id";
-            ColumnId.MinimumWidth = 8;
-            ColumnId.Name = "ColumnId";
-            // 
-            // ColumnHo
-            // 
-            ColumnHo.DataPropertyName = "Ho";
-            ColumnHo.HeaderText = "Họ";
-            ColumnHo.MinimumWidth = 8;
-            ColumnHo.Name = "ColumnHo";
-            // 
-            // ColumnTen
-            // 
-            ColumnTen.DataPropertyName = "Ten";
-            ColumnTen.HeaderText = "Tên";
-            ColumnTen.MinimumWidth = 8;
-            ColumnTen.Name = "ColumnTen";
-            // 
-            // ColumnGioiTinh
-            // 
-            ColumnGioiTinh.DataPropertyName = "GioiTinh";
-            ColumnGioiTinh.HeaderText = "Giới tính";
-            ColumnGioiTinh.MinimumWidth = 8;
-            ColumnGioiTinh.Name = "ColumnGioiTinh";
-            // 
-            // ColumnNgaySinh
-            // 
-            ColumnNgaySinh.DataPropertyName = "NgaySinh";
-            ColumnNgaySinh.HeaderText = "Ngày sinh";
-            ColumnNgaySinh.MinimumWidth = 8;
-            ColumnNgaySinh.Name = "ColumnNgaySinh";
-            // 
-            // ColumnTruong
-            // 
-            ColumnTruong.DataPropertyName = "Truong";
-            ColumnTruong.HeaderText = "Trường";
-            ColumnTruong.MinimumWidth = 8;
-            ColumnTruong.Name = "ColumnTruong";
-            // 
-            // ColumnLop
-            // 
-            ColumnLop.DataPropertyName = "Lop";
-            ColumnLop.HeaderText = "Lớp";
-            ColumnLop.MinimumWidth = 8;
-            ColumnLop.Name = "ColumnLop";
-            // 
-            // ColumnTenDangNhap
-            // 
-            ColumnTenDangNhap.DataPropertyName = "TenDangNhap";
-            ColumnTenDangNhap.HeaderText = "Tên đăng nhập";
-            ColumnTenDangNhap.MinimumWidth = 8;
-            ColumnTenDangNhap.Name = "ColumnTenDangNhap";
-            // 
-            // ColumnDelete
-            // 
-            ColumnDelete.HeaderText = "";
-            ColumnDelete.Image = Properties.Resources.trash;
-            ColumnDelete.MinimumWidth = 8;
-            ColumnDelete.Name = "ColumnDelete";
-            ColumnDelete.Resizable = DataGridViewTriState.True;
-            // 
-            // ColumnChiTiet
-            // 
-            ColumnChiTiet.HeaderText = "";
-            ColumnChiTiet.Image = Properties.Resources.moredetail;
-            ColumnChiTiet.MinimumWidth = 8;
-            ColumnChiTiet.Name = "ColumnChiTiet";
-            ColumnChiTiet.Resizable = DataGridViewTriState.True;
             // 
             // pictureBox1
             // 
@@ -221,6 +150,86 @@
             buttonTimkiem.UseVisualStyleBackColor = false;
             buttonTimkiem.Click += buttonTimkiem_Click;
             // 
+            // ColumnId
+            // 
+            ColumnId.DataPropertyName = "IdHocSinh";
+            ColumnId.HeaderText = "Id";
+            ColumnId.MinimumWidth = 8;
+            ColumnId.Name = "ColumnId";
+            // 
+            // ColumnHo
+            // 
+            ColumnHo.DataPropertyName = "Ho";
+            ColumnHo.HeaderText = "Họ";
+            ColumnHo.MinimumWidth = 8;
+            ColumnHo.Name = "ColumnHo";
+            // 
+            // ColumnTen
+            // 
+            ColumnTen.DataPropertyName = "Ten";
+            ColumnTen.HeaderText = "Tên";
+            ColumnTen.MinimumWidth = 8;
+            ColumnTen.Name = "ColumnTen";
+            // 
+            // ColumnGioiTinh
+            // 
+            ColumnGioiTinh.DataPropertyName = "GioiTinh";
+            ColumnGioiTinh.HeaderText = "Giới tính";
+            ColumnGioiTinh.MinimumWidth = 8;
+            ColumnGioiTinh.Name = "ColumnGioiTinh";
+            // 
+            // ColumnNgaySinh
+            // 
+            ColumnNgaySinh.DataPropertyName = "NgaySinh";
+            ColumnNgaySinh.HeaderText = "Ngày sinh";
+            ColumnNgaySinh.MinimumWidth = 8;
+            ColumnNgaySinh.Name = "ColumnNgaySinh";
+            // 
+            // ColumnTruong
+            // 
+            ColumnTruong.DataPropertyName = "Truong";
+            ColumnTruong.HeaderText = "Trường";
+            ColumnTruong.MinimumWidth = 8;
+            ColumnTruong.Name = "ColumnTruong";
+            // 
+            // ColumnLop
+            // 
+            ColumnLop.DataPropertyName = "Lop";
+            ColumnLop.HeaderText = "Lớp";
+            ColumnLop.MinimumWidth = 8;
+            ColumnLop.Name = "ColumnLop";
+            // 
+            // ColumnTenDangNhap
+            // 
+            ColumnTenDangNhap.DataPropertyName = "TenDangNhap";
+            ColumnTenDangNhap.HeaderText = "Tên đăng nhập";
+            ColumnTenDangNhap.MinimumWidth = 8;
+            ColumnTenDangNhap.Name = "ColumnTenDangNhap";
+            // 
+            // Columnfilepath
+            // 
+            Columnfilepath.DataPropertyName = "filepathimage";
+            Columnfilepath.HeaderText = "Columnfile";
+            Columnfilepath.MinimumWidth = 8;
+            Columnfilepath.Name = "Columnfilepath";
+            Columnfilepath.Visible = false;
+            // 
+            // ColumnDelete
+            // 
+            ColumnDelete.HeaderText = "";
+            ColumnDelete.Image = Properties.Resources.trash;
+            ColumnDelete.MinimumWidth = 8;
+            ColumnDelete.Name = "ColumnDelete";
+            ColumnDelete.Resizable = DataGridViewTriState.True;
+            // 
+            // ColumnChiTiet
+            // 
+            ColumnChiTiet.HeaderText = "";
+            ColumnChiTiet.Image = Properties.Resources.moredetail;
+            ColumnChiTiet.MinimumWidth = 8;
+            ColumnChiTiet.Name = "ColumnChiTiet";
+            ColumnChiTiet.Resizable = DataGridViewTriState.True;
+            // 
             // StudentMain
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -250,6 +259,9 @@
         private PictureBox pictureBox1;
         private TextBox textBoxTimKiem;
         private ComboBox comboBoxTimKiem;
+        private System.Windows.Forms.Timer timer1;
+        private Button buttonupdate;
+        private Button buttonTimkiem;
         private DataGridViewTextBoxColumn ColumnId;
         private DataGridViewTextBoxColumn ColumnHo;
         private DataGridViewTextBoxColumn ColumnTen;
@@ -258,10 +270,8 @@
         private DataGridViewTextBoxColumn ColumnTruong;
         private DataGridViewTextBoxColumn ColumnLop;
         private DataGridViewTextBoxColumn ColumnTenDangNhap;
+        private DataGridViewTextBoxColumn Columnfilepath;
         private DataGridViewImageColumn ColumnDelete;
         private DataGridViewImageColumn ColumnChiTiet;
-        private System.Windows.Forms.Timer timer1;
-        private Button buttonupdate;
-        private Button buttonTimkiem;
     }
 }

@@ -55,6 +55,14 @@ namespace GUI.Employee
                 }
                 dataGridViewTaiXe.DataSource = service.getDuLieu();
             }
+            if(dataGridViewTaiXe.Columns[e.ColumnIndex] is DataGridViewImageColumn && dataGridViewTaiXe.Columns[e.ColumnIndex].Name == "ColumnIn")
+            {
+                int row = e.RowIndex;
+                int idtaixe = int.Parse(dataGridViewTaiXe.Rows[row].Cells["ColumnId"].Value.ToString());
+                DateTime currentDate = DateTime.Now;
+                string formattedDate = currentDate.ToString("dd-MM-yyyy");
+                Console.WriteLine(formattedDate);   
+            }
 
 
         }

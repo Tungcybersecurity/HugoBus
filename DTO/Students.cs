@@ -16,6 +16,7 @@ namespace DTO
         private string truong;
         private string lop;
         private string tendangnhap;
+        private string filepathimage;
 
         public Students() { }
         public int Idhocsinh { get => idhocsinh; set => idhocsinh = value; }
@@ -26,5 +27,6 @@ namespace DTO
         public string Truong { get => truong; set => truong = value; }
         public string Lop { get => lop; set => lop = value; }
         public string Tendangnhap { get => tendangnhap; set => tendangnhap = value; }
+        public string Filepathimage { get => filepathimage; set => filepathimage = value; }
     }
 }

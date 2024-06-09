@@ -264,7 +264,29 @@ namespace DAO
             }
         }
 
-
+        public DataTable getListJob(int idtaixe,string ngay)
+        {
+            Connection connect = new Connection();
+            MySqlConnection con = connect.getConnection();
+            try
+            {
+                con.Open();
+                string sql = "SELECT \r\n    hs.ho ,\r\n    hs.ten,\r\n    hs.idhocsinh,\r\n    ttdt.tentram,\r\n    ttdtr.tentruong\r\nFROM \r\n    phancongduadon pcd\r\nJOIN \r\n    chuyen c ON pcd.idchuyen = c.idchuyen\r\nJOIN \r\n    hopdong hd ON pcd.idchitiet = hd.idhopdong\r\nJOIN \r\n    chitiethopdong cthd ON hd.idhopdong = cthd.idhopdong\r\nJOIN \r\n    hocsinh hs ON hd.idhocsinh = hs.idhocsinh\r\nJOIN \r\n    thongtindiadiemtram ttdt ON hd.idtramdon = ttdt.idtram\r\nJOIN \r\n    thongtindiadiemtruong ttdtr ON hd.idtruong = ttdtr.idtruong\r\nWHERE \r\n    c.idtaixe = @id\r\n    AND pcd.ngayduadon = @ngay;\r\n";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@id", idtaixe);
+                cmd.Parameters.AddWithValue("@ngay",ngay);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                con.Close();
+                return dt;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
 
 
     }

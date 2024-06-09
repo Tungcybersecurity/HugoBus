@@ -44,7 +44,7 @@ namespace GUI.Student
                 st.Truong = dataGridViewHocSinh.Rows[rowIndex].Cells["ColumnTruong"].Value.ToString();
                 st.Lop = dataGridViewHocSinh.Rows[rowIndex].Cells["ColumnLop"].Value.ToString();
                 st.Tendangnhap = dataGridViewHocSinh.Rows[rowIndex].Cells["ColumnTenDangNhap"].Value.ToString();
-
+                st.Filepathimage = dataGridViewHocSinh.Rows[rowIndex].Cells["Columnfilepath"].Value.ToString();
                 Parents pr = service.thongTinChiTietHocSinh(st.Tendangnhap);
 
                 InfoStudent2 student2 = new InfoStudent2(st, pr);

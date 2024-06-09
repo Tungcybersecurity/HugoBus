@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -38,11 +39,13 @@ namespace GUI.UserAccount.Detail
             {
                 if (!string.IsNullOrEmpty(filePath))
                 {
-                    // Tạo một đối tượng hình ảnh từ đường dẫn
-                    Image image = Image.FromFile(filePath);
+                    var request = WebRequest.Create(filePath);
 
-                    // Gán hình ảnh cho PictureBox
-                    pictureBox1.Image = image;
+                    using (var response = request.GetResponse())
+                    using (var stream = response.GetResponseStream())
+                    {
+                        pictureBox1.Image = Bitmap.FromStream(stream);
+                    }
 
                     // Thiết lập chế độ hiển thị hình ảnh trong PictureBox (tuỳ chọn)
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage; // Zoom để phù hợp với kích thước PictureBox
