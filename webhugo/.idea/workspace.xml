@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WebHugo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="523a04e5-a1d9-4651-9205-304633fcadc5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1142912095">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="46" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="6" />
+          <entry key="project.open.time.16" value="5" />
+          <entry key="project.open.time.17" value="6" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.27" value="4" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="4" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="400" />
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+          <entry key="jsp" value="6" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="4" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="399" />
+          <entry key="JSON" value="1" />
+          <entry key="JSP" value="6" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="52" />
+          <entry key="html" value="29" />
+          <entry key="java" value="33216" />
+          <entry key="js" value="140" />
+          <entry key="jsp" value="80" />
+          <entry key="xml" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="29" />
+          <entry key="JAVA" value="33216" />
+          <entry key="JSP" value="80" />
+          <entry key="JavaScript" value="140" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="XML" value="45" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/AttendanceAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="21" column="48" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Model/AttendanceTaking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/NotificationAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/NotificationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/AttendanceTakingDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/AttendanceTakingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>D:\Detainhom18\WebHugo\src\main</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/StudentInfomationAPI2.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/ResetPasswordDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Contract.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Driver.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/DetailsContract.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/DetailsContractService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/GetConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/LoginDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/InfomationParentService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/AddNewStudentsService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/app,js.js" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/LoginAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/RegisterAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/RegisterAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/AddAcountService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/AddNewStudentsAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/ParentInformationAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/StudentInfomationAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/DetailsContractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Payment.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/paymentService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/ContractInformationAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/paymentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/StatusContractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/StatusContractService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/AddContractAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/formContract.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/ContractService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/ContractAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Students.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/StudentsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Parents.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/AccountCreationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/InformationParentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/DetailsContractAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/ContractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/ScheduleStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/InfomationStudentsService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/InfomationStudentsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/ScheduleStudentAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/AttendanceTaking.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/AttendanceTakingDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/AttendanceTakingService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/AttendanceAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Model/Notification.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/DAO/user/NotificationDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Service/user/NotificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/Controller/Api/user/NotificationAPI.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="30" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="asset" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="liti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebHugo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Model/RegisterAccount.java&#10;ap&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Controller/Api/user/StudentInfomationAPI.java&#10;I&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Service/user/InfomationStudentsService.java&#10;St&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Model/Students.java&#10;Ac&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Model/Account.java&#10;map&#9;FILE&#9;file://D:/Detainhom18/WebHugo/src/main/Java/Mapper/ModelMapper.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1717943989766" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.start">
+    <configuration name="All Features in: WebHugo" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="WebHugo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: WebHugo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeUser.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/view/user/HomeUser.html" />
+      <deployment>
+        <artifact name="WebHugo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="HomeUser_html_liti" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebHugo:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="WebHugo:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_liti" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52354" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebHugo:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="start" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="WebHugo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_liti" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52277" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="WebHugo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.start" />
+      <item itemvalue="Cucumber java.All Features in: WebHugo" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="Tomcat Server.HomeUser.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.HomeUser.html" />
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Cucumber java.All Features in: WebHugo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="523a04e5-a1d9-4651-9205-304633fcadc5" name="Default Changelist" comment="" />
+      <created>1712026768975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712026768975</updated>
+      <workItem from="1712026773647" duration="1836000" />
+      <workItem from="1712029208288" duration="14000" />
+      <workItem from="1712107743325" duration="29405000" />
+      <workItem from="1712157475164" duration="3137000" />
+      <workItem from="1712160728482" duration="1386000" />
+      <workItem from="1712194362845" duration="1734000" />
+      <workItem from="1712224343361" duration="6074000" />
+      <workItem from="1712244038884" duration="698000" />
+      <workItem from="1712244991109" duration="917000" />
+      <workItem from="1712245971625" duration="955000" />
+      <workItem from="1712283923794" duration="1778000" />
+      <workItem from="1712757980626" duration="1374000" />
+      <workItem from="1712848285130" duration="795000" />
+      <workItem from="1713169595235" duration="7550000" />
+      <workItem from="1713177940490" duration="4491000" />
+      <workItem from="1713258176621" duration="4639000" />
+      <workItem from="1713280560953" duration="693000" />
+      <workItem from="1713360321221" duration="8948000" />
+      <workItem from="1713604344034" duration="12193000" />
+      <workItem from="1713864246231" duration="589000" />
+      <workItem from="1713881814734" duration="137000" />
+      <workItem from="1714037409243" duration="1881000" />
+      <workItem from="1714380254384" duration="3783000" />
+      <workItem from="1715214284876" duration="10142000" />
+      <workItem from="1715237962918" duration="7238000" />
+      <workItem from="1715256060130" duration="9738000" />
+      <workItem from="1715346787033" duration="2678000" />
+      <workItem from="1715524559709" duration="639000" />
+      <workItem from="1715583619560" duration="185000" />
+      <workItem from="1715583865675" duration="21000" />
+      <workItem from="1715735231354" duration="168000" />
+      <workItem from="1715735452720" duration="1752000" />
+      <workItem from="1715963801238" duration="670000" />
+      <workItem from="1716447161085" duration="795000" />
+      <workItem from="1716970849544" duration="591000" />
+      <workItem from="1717076618300" duration="9460000" />
+      <workItem from="1717127955424" duration="8733000" />
+      <workItem from="1717139380248" duration="12544000" />
+      <workItem from="1717166625515" duration="3077000" />
+      <workItem from="1717172443745" duration="895000" />
+      <workItem from="1717210891817" duration="21784000" />
+      <workItem from="1717258082987" duration="588000" />
+      <workItem from="1717308271616" duration="2282000" />
+      <workItem from="1717317184054" duration="9368000" />
+      <workItem from="1717394868801" duration="616000" />
+      <workItem from="1717403085774" duration="1145000" />
+      <workItem from="1717506870145" duration="85000" />
+      <workItem from="1717744867673" duration="15000" />
+      <workItem from="1717747388069" duration="7576000" />
+      <workItem from="1717770342191" duration="6923000" />
+      <workItem from="1717840098301" duration="1933000" />
+      <workItem from="1717901972629" duration="8017000" />
+      <workItem from="1717939424720" duration="2444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 44m 55s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 45m 05s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 45m 24s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 50m 21s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 53m 08s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 55m 18s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 14h 58m 29s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 15h 01m 07s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 15h 02m 25s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Features_in__WebHugo - 2024.04.03 at 15h 03m 40s.xml">
+      <configuration name="All Features in: WebHugo" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="227109000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="481" y="59" width="319" height="602" id="Project" order="0" visible="true" weight="0.2680162" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49959514" weight="0.35215947" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39700997" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.8222591" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.32724252" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3139535" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32890365" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="481" y="59" width="319" height="602" id="Project" order="0" visible="true" weight="0.25101215" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32890365" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49959514" weight="0.8289037" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39700997" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32890365" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.8222591" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919093" weight="0.32724252" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.3139535" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32890365" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Java/Controller/user/test.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/RegisterAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/LoginDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/user/asset/css/homestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/user/HomeUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="50" column="4" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/DetailsContractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Mapper/ModelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/paymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/AddAcountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/LoginAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/AddContractAPI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/StatusContractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/ParentInformationAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/formContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/ContractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/StatusContractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/DetailsContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Parents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/AccountCreationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="52" column="84" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Students.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/StudentsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="54" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/paymentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/InformationParentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/InfomationStudentsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/InfomationStudentsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/ScheduleStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/ContractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/ContractInformationAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/RegisterAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/DetailsContractAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/StudentInfomationAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/ContractAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/ScheduleStudentAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/AddNewStudentsAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/DetailsContractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/AttendanceTakingDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/AttendanceTakingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/AttendanceAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/AttendanceTaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Model/Notification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/DAO/user/NotificationDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Service/user/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/Controller/Api/user/NotificationAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>WebHugo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WebHugo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
