@@ -14,6 +14,35 @@ namespace BUS
         {
             return (new PaymentDAO().doDuLieu());
         }
+        public DataTable getTongTungThang()
+        {
+            return new PaymentDAO().getTongTungThang();
+        }
+
+        public DataTable getTongTungQuy()
+        {
+            return new PaymentDAO().getTongTungQuy();
+        }
+
+        public DataTable getTongTungNam()
+        {
+            return new PaymentDAO().getTongTungNam();
+        }
+
+        public DataTable getTTThang()
+        {
+            return new PaymentDAO().getTTThang();
+        }
+
+        public DataTable getTTQuy()
+        {
+            return new PaymentDAO().getTTQuy();
+        }
+
+        public DataTable getTTNam()
+        {
+            return new PaymentDAO().getTTNam();
+        }
 
         public DataTable getIDHopDong()
         {
@@ -27,7 +56,7 @@ namespace BUS
 
         public int suaThanhToan(string idHopDong, int soTienThanhToan, string ngayThanhToan, string phuongThucThanhToan, string idThanhToan)
         {
-            return new PaymentDAO().suaThanhToan(idHopDong,soTienThanhToan,ngayThanhToan,phuongThucThanhToan,idThanhToan);
+            return new PaymentDAO().suaThanhToan(idHopDong, soTienThanhToan, ngayThanhToan, phuongThucThanhToan, idThanhToan);
         }
 
         public int xoaThanhToan(string idThanhToan)

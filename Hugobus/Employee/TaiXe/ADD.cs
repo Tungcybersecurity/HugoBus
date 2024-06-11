@@ -135,5 +135,10 @@ namespace GUI.Employee.TaiXe
             textBoxEmail.Text = "";
             textBoxCCCD.Text = "";
         }
+
+        private void ADD_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

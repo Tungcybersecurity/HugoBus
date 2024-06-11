@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj": {}
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj": {}
   },
   "projects": {
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj": {
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj": {
-                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj"
+              "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\DAO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\DAO.csproj"
               },
-              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj": {
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj": {
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,11 +225,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj"
+              "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj"
               },
-              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -268,10 +268,6 @@
             "DocumentFormat.OpenXml.Framework": {
               "target": "Package",
               "version": "[3.0.2, )"
-            },
-            "Microsoft.Chart.Controls": {
-              "target": "Package",
-              "version": "[4.7.2046, )"
             },
             "Microsoft.Office.Interop.Excel": {
               "target": "Package",

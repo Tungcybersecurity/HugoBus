@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {}
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+    "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

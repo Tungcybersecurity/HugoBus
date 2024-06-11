@@ -66,78 +66,78 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Nam", "Nữ" });
-            comboBox1.Location = new Point(83, 121);
-            comboBox1.Margin = new Padding(2);
+            comboBox1.Location = new Point(95, 161);
+            comboBox1.Margin = new Padding(2, 3, 2, 3);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(344, 23);
+            comboBox1.Size = new Size(393, 28);
             comboBox1.TabIndex = 35;
             // 
             // labelErrorCCCD
             // 
             labelErrorCCCD.AutoSize = true;
             labelErrorCCCD.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErrorCCCD.Location = new Point(82, 334);
+            labelErrorCCCD.Location = new Point(94, 445);
             labelErrorCCCD.Margin = new Padding(2, 0, 2, 0);
             labelErrorCCCD.Name = "labelErrorCCCD";
-            labelErrorCCCD.Size = new Size(0, 13);
+            labelErrorCCCD.Size = new Size(0, 19);
             labelErrorCCCD.TabIndex = 33;
             // 
             // labelErroEmail
             // 
             labelErroEmail.AutoSize = true;
             labelErroEmail.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErroEmail.Location = new Point(82, 298);
+            labelErroEmail.Location = new Point(94, 397);
             labelErroEmail.Margin = new Padding(2, 0, 2, 0);
             labelErroEmail.Name = "labelErroEmail";
-            labelErroEmail.Size = new Size(0, 13);
+            labelErroEmail.Size = new Size(0, 19);
             labelErroEmail.TabIndex = 31;
             // 
             // labelErrorSDT
             // 
             labelErrorSDT.AutoSize = true;
             labelErrorSDT.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErrorSDT.Location = new Point(84, 260);
+            labelErrorSDT.Location = new Point(96, 347);
             labelErrorSDT.Margin = new Padding(2, 0, 2, 0);
             labelErrorSDT.Name = "labelErrorSDT";
-            labelErrorSDT.Size = new Size(0, 13);
+            labelErrorSDT.Size = new Size(0, 19);
             labelErrorSDT.TabIndex = 30;
             // 
             // labelErroDiaChi
             // 
             labelErroDiaChi.AutoSize = true;
             labelErroDiaChi.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErroDiaChi.Location = new Point(84, 214);
+            labelErroDiaChi.Location = new Point(96, 285);
             labelErroDiaChi.Margin = new Padding(2, 0, 2, 0);
             labelErroDiaChi.Name = "labelErroDiaChi";
-            labelErroDiaChi.Size = new Size(0, 13);
+            labelErroDiaChi.Size = new Size(0, 19);
             labelErroDiaChi.TabIndex = 29;
             // 
             // labelErrorTen
             // 
             labelErrorTen.AutoSize = true;
             labelErrorTen.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErrorTen.Location = new Point(84, 103);
+            labelErrorTen.Location = new Point(96, 137);
             labelErrorTen.Margin = new Padding(2, 0, 2, 0);
             labelErrorTen.Name = "labelErrorTen";
-            labelErrorTen.Size = new Size(0, 13);
+            labelErrorTen.Size = new Size(0, 19);
             labelErrorTen.TabIndex = 34;
             // 
             // labelErrorHo
             // 
             labelErrorHo.AutoSize = true;
             labelErrorHo.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelErrorHo.Location = new Point(84, 61);
+            labelErrorHo.Location = new Point(96, 81);
             labelErrorHo.Margin = new Padding(2, 0, 2, 0);
             labelErrorHo.Name = "labelErrorHo";
-            labelErrorHo.Size = new Size(0, 13);
+            labelErrorHo.Size = new Size(0, 19);
             labelErrorHo.TabIndex = 28;
             // 
             // button2
             // 
-            button2.Location = new Point(532, 127);
-            button2.Margin = new Padding(2);
+            button2.Location = new Point(608, 169);
+            button2.Margin = new Padding(2, 3, 2, 3);
             button2.Name = "button2";
-            button2.Size = new Size(78, 20);
+            button2.Size = new Size(89, 27);
             button2.TabIndex = 27;
             button2.Text = "Thêm ảnh";
             button2.UseVisualStyleBackColor = true;
@@ -146,9 +146,9 @@
             // 
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Margin = new Padding(2);
+            pictureBox1.Margin = new Padding(2, 3, 2, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(146, 101);
+            pictureBox1.Size = new Size(167, 135);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -156,121 +156,121 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(84, 296);
+            label8.Location = new Point(96, 395);
             label8.Margin = new Padding(2, 0, 2, 0);
             label8.Name = "label8";
-            label8.Size = new Size(0, 13);
+            label8.Size = new Size(0, 19);
             label8.TabIndex = 32;
             // 
             // panel1
             // 
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(499, 22);
-            panel1.Margin = new Padding(2);
+            panel1.Location = new Point(570, 29);
+            panel1.Margin = new Padding(2, 3, 2, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(146, 101);
+            panel1.Size = new Size(167, 135);
             panel1.TabIndex = 26;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(82, 154);
-            dateTimePicker1.Margin = new Padding(2);
+            dateTimePicker1.Location = new Point(94, 205);
+            dateTimePicker1.Margin = new Padding(2, 3, 2, 3);
             dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(344, 23);
+            dateTimePicker1.Size = new Size(393, 27);
             dateTimePicker1.TabIndex = 25;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 154);
+            label2.Location = new Point(14, 205);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(72, 19);
+            label2.Size = new Size(87, 23);
             label2.TabIndex = 16;
             label2.Text = "Ngày sinh";
             // 
             // textBoxCCCD
             // 
-            textBoxCCCD.Location = new Point(82, 313);
-            textBoxCCCD.Margin = new Padding(2);
+            textBoxCCCD.Location = new Point(94, 417);
+            textBoxCCCD.Margin = new Padding(2, 3, 2, 3);
             textBoxCCCD.Name = "textBoxCCCD";
-            textBoxCCCD.Size = new Size(591, 23);
+            textBoxCCCD.Size = new Size(675, 27);
             textBoxCCCD.TabIndex = 20;
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(16, 313);
+            label6.Location = new Point(18, 417);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(46, 19);
+            label6.Size = new Size(55, 23);
             label6.TabIndex = 17;
             label6.Text = "CCCD";
             // 
             // textBoxEmail
             // 
-            textBoxEmail.Location = new Point(82, 277);
-            textBoxEmail.Margin = new Padding(2);
+            textBoxEmail.Location = new Point(94, 369);
+            textBoxEmail.Margin = new Padding(2, 3, 2, 3);
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(591, 23);
+            textBoxEmail.Size = new Size(675, 27);
             textBoxEmail.TabIndex = 22;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(16, 277);
+            label5.Location = new Point(18, 369);
             label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(43, 19);
+            label5.Size = new Size(51, 23);
             label5.TabIndex = 15;
             label5.Text = "Email";
             // 
             // textBoxSDT
             // 
-            textBoxSDT.Location = new Point(82, 239);
-            textBoxSDT.Margin = new Padding(2);
+            textBoxSDT.Location = new Point(94, 319);
+            textBoxSDT.Margin = new Padding(2, 3, 2, 3);
             textBoxSDT.Name = "textBoxSDT";
-            textBoxSDT.Size = new Size(591, 23);
+            textBoxSDT.Size = new Size(675, 27);
             textBoxSDT.TabIndex = 24;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(16, 239);
+            label4.Location = new Point(18, 319);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(35, 19);
+            label4.Size = new Size(40, 23);
             label4.TabIndex = 14;
             label4.Text = "SĐT";
             // 
             // textBoxDia
             // 
-            textBoxDia.Location = new Point(82, 192);
-            textBoxDia.Margin = new Padding(2);
+            textBoxDia.Location = new Point(94, 256);
+            textBoxDia.Margin = new Padding(2, 3, 2, 3);
             textBoxDia.Name = "textBoxDia";
-            textBoxDia.Size = new Size(591, 23);
+            textBoxDia.Size = new Size(675, 27);
             textBoxDia.TabIndex = 18;
             // 
             // textBoxDiaChi
             // 
-            textBoxDiaChi.Location = new Point(82, 194);
-            textBoxDiaChi.Margin = new Padding(2);
+            textBoxDiaChi.Location = new Point(94, 259);
+            textBoxDiaChi.Margin = new Padding(2, 3, 2, 3);
             textBoxDiaChi.Name = "textBoxDiaChi";
-            textBoxDiaChi.Size = new Size(591, 23);
+            textBoxDiaChi.Size = new Size(675, 27);
             textBoxDiaChi.TabIndex = 23;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(16, 194);
+            label3.Location = new Point(18, 259);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(53, 19);
+            label3.Size = new Size(62, 23);
             label3.TabIndex = 13;
             label3.Text = "Địa chỉ";
             // 
@@ -278,48 +278,48 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(16, 121);
+            label7.Location = new Point(18, 161);
             label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(65, 19);
+            label7.Size = new Size(75, 23);
             label7.TabIndex = 12;
             label7.Text = "Giới tính";
             // 
             // textBoxTen
             // 
-            textBoxTen.Location = new Point(82, 82);
-            textBoxTen.Margin = new Padding(2);
+            textBoxTen.Location = new Point(94, 109);
+            textBoxTen.Margin = new Padding(2, 3, 2, 3);
             textBoxTen.Name = "textBoxTen";
-            textBoxTen.Size = new Size(344, 23);
+            textBoxTen.Size = new Size(393, 27);
             textBoxTen.TabIndex = 21;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(16, 82);
+            label1.Location = new Point(18, 109);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(31, 19);
+            label1.Size = new Size(36, 23);
             label1.TabIndex = 11;
             label1.Text = "Tên";
             // 
             // textBoxHo
             // 
-            textBoxHo.Location = new Point(82, 40);
-            textBoxHo.Margin = new Padding(2);
+            textBoxHo.Location = new Point(94, 53);
+            textBoxHo.Margin = new Padding(2, 3, 2, 3);
             textBoxHo.Name = "textBoxHo";
-            textBoxHo.Size = new Size(344, 23);
+            textBoxHo.Size = new Size(393, 27);
             textBoxHo.TabIndex = 19;
             // 
             // labelHo
             // 
             labelHo.AutoSize = true;
             labelHo.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelHo.Location = new Point(16, 40);
+            labelHo.Location = new Point(18, 53);
             labelHo.Margin = new Padding(2, 0, 2, 0);
             labelHo.Name = "labelHo";
-            labelHo.Size = new Size(27, 19);
+            labelHo.Size = new Size(33, 23);
             labelHo.TabIndex = 10;
             labelHo.Text = "Họ";
             // 
@@ -329,10 +329,10 @@
             button1.Font = new Font("Arial Narrow", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(346, 353);
-            button1.Margin = new Padding(2);
+            button1.Location = new Point(395, 471);
+            button1.Margin = new Padding(2, 3, 2, 3);
             button1.Name = "button1";
-            button1.Size = new Size(115, 20);
+            button1.Size = new Size(131, 27);
             button1.TabIndex = 9;
             button1.Text = "Clear All";
             button1.UseVisualStyleBackColor = true;
@@ -342,19 +342,19 @@
             buttonSave.FlatAppearance.BorderSize = 0;
             buttonSave.Font = new Font("Arial Narrow", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonSave.ImageAlign = ContentAlignment.MiddleLeft;
-            buttonSave.Location = new Point(237, 353);
-            buttonSave.Margin = new Padding(2);
+            buttonSave.Location = new Point(271, 471);
+            buttonSave.Margin = new Padding(2, 3, 2, 3);
             buttonSave.Name = "buttonSave";
-            buttonSave.Size = new Size(105, 20);
+            buttonSave.Size = new Size(120, 27);
             buttonSave.TabIndex = 8;
             buttonSave.Text = " Save ";
             buttonSave.UseVisualStyleBackColor = true;
             // 
             // ADD
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(685, 395);
+            ClientSize = new Size(783, 527);
             Controls.Add(comboBox1);
             Controls.Add(labelErrorCCCD);
             Controls.Add(labelErroEmail);
@@ -384,8 +384,10 @@
             Controls.Add(button1);
             Controls.Add(buttonSave);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ADD";
             Text = "ADD";
+            Load += ADD_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             ResumeLayout(false);

@@ -190,21 +190,6 @@
           }
         }
       },
-      "Microsoft.Chart.Controls/4.7.2046": {
-        "type": "package",
-        "compile": {
-          "lib/net35/System.Web.DataVisualization.Design.dll": {},
-          "lib/net35/System.Web.DataVisualization.dll": {},
-          "lib/net35/System.Windows.Forms.DataVisualization.Design.dll": {},
-          "lib/net35/System.Windows.Forms.DataVisualization.dll": {}
-        },
-        "runtime": {
-          "lib/net35/System.Web.DataVisualization.Design.dll": {},
-          "lib/net35/System.Web.DataVisualization.dll": {},
-          "lib/net35/System.Windows.Forms.DataVisualization.Design.dll": {},
-          "lib/net35/System.Windows.Forms.DataVisualization.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -2156,22 +2141,6 @@
         "lib/netstandard2.0/K4os.Hash.xxHash.xml",
         "lib/netstandard2.1/K4os.Hash.xxHash.dll",
         "lib/netstandard2.1/K4os.Hash.xxHash.xml"
-      ]
-    },
-    "Microsoft.Chart.Controls/4.7.2046": {
-      "sha512": "tSNkrA2zBGiRFC5Xmb2pnowds+2919zGyuiNMZf5cP1OpKi/Q1qPbQ8xWr2jnr8hCfBFiRV9WeIdCANMpo/jRw==",
-      "type": "package",
-      "path": "microsoft.chart.controls/4.7.2046",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Supplemental Redist License_English.docx",
-        "lib/net35/System.Web.DataVisualization.Design.dll",
-        "lib/net35/System.Web.DataVisualization.dll",
-        "lib/net35/System.Windows.Forms.DataVisualization.Design.dll",
-        "lib/net35/System.Windows.Forms.DataVisualization.dll",
-        "microsoft.chart.controls.4.7.2046.nupkg.sha512",
-        "microsoft.chart.controls.nuspec"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -6287,7 +6256,6 @@
       "DTO >= 1.0.0",
       "DocumentFormat.OpenXml >= 3.0.2",
       "DocumentFormat.OpenXml.Framework >= 3.0.2",
-      "Microsoft.Chart.Controls >= 4.7.2046",
       "Microsoft.Office.Interop.Excel >= 15.0.4795.1001",
       "WinForms.DataVisualization >= 1.9.2"
     ]
@@ -6298,11 +6266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
+      "projectUniqueName": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
+      "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\GUI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\obj\\",
+      "outputPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\Hugobus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6319,11 +6287,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj": {
-              "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj"
+            "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj": {
+              "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\BUS\\BUS.csproj"
             },
-            "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
+            "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DTO\\DTO.csproj"
             }
           }
         }
@@ -6362,10 +6330,6 @@
           "DocumentFormat.OpenXml.Framework": {
             "target": "Package",
             "version": "[3.0.2, )"
-          },
-          "Microsoft.Chart.Controls": {
-            "target": "Package",
-            "version": "[4.7.2046, )"
           },
           "Microsoft.Office.Interop.Excel": {
             "target": "Package",
@@ -6406,16 +6370,6 @@
       "warningLevel": 1,
       "message": "Package 'ADGV 0.1.0.10' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "ADGV",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Chart.Controls 4.7.2046' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Chart.Controls",
       "targetGraphs": [
         "net8.0-windows7.0"
       ]

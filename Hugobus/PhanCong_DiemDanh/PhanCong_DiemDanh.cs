@@ -141,15 +141,15 @@ namespace GUI.PhanCong_DiemDanh
             }
             int count = 0;
             int totalDays = (endDate - startDate).Days;
-            if (totalDays == 30)
+            if (totalDays >= 28 && totalDays <=31)
             {
                 count = 4;
             }
-            else if (totalDays == 90)
+            else if (totalDays >= 84 && totalDays <= 93)
             {
                 count = 12;
             }
-            else if (totalDays == 180)
+            else if (totalDays >= 168 && totalDays <= 186)
             {
                 count = 24;
             }
