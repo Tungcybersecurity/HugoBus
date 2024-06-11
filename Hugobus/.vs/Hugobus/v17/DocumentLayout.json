@@ -1,0 +1,499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\hugobus\\phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\hugobus\\contract\\contractdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:contract\\contractdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\contract\\contractdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:contract\\contractdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86224D1-9EDB-4231-8DBC-A7E76382112D}|..\\BUS\\BUS.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\bus\\phancongbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\phancongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\diemdanhdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\hugobus\\payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\paymentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86224D1-9EDB-4231-8DBC-A7E76382112D}|..\\BUS\\BUS.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\bus\\paymentbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\hugobus\\contract\\contractdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:contract\\contractdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\chuyen\\chuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:chuyen\\chuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\chuyen\\chuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:chuyen\\chuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\contract\\contractmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:contract\\contractmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\hugobus\\phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\payment\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\payment\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\thongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\contract\\contractmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:contract\\contractmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\chuyendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|e:\\admin_hugobus\\zerohope\\hugobus\\dao\\contractdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\detainhom18\\cuatuan3\\hugobus\\dao\\employeedriverdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\employee\\taixe\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\taixe\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\employee\\taixe\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\taixe\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimChuyen.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\TimChuyen.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs",
+              "RelativeToolTip": "PhanCong_DiemDanh\\TimChuyen.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAC4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:29:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContractDetails.Designer.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.Designer.cs",
+              "RelativeDocumentMoniker": "Contract\\ContractDetails.Designer.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.Designer.cs",
+              "RelativeToolTip": "Contract\\ContractDetails.Designer.cs",
+              "ViewState": "AQIAAG8BAAAAAAAAAAAtwH4BAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:14:08.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContractDetails.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.cs",
+              "RelativeDocumentMoniker": "Contract\\ContractDetails.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.cs [Design]",
+              "RelativeToolTip": "Contract\\ContractDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:01:06.452Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentMain.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\PaymentMain.cs",
+              "RelativeDocumentMoniker": "Payment\\PaymentMain.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\PaymentMain.cs",
+              "RelativeToolTip": "Payment\\PaymentMain.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAmwJ0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T12:44:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\Connection.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\Connection.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\Connection.cs",
+              "RelativeToolTip": "..\\DAO\\Connection.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAApwBkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:51:12.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TimChuyen.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\TimChuyen.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs [Design]",
+              "RelativeToolTip": "PhanCong_DiemDanh\\TimChuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:49:34.105Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Login.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Login\\Login.cs",
+              "RelativeToolTip": "Login\\Login.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:49:11.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Login\\Login.cs [Design]",
+              "RelativeToolTip": "Login\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:49:08.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Chuyen.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Chuyen\\Chuyen.cs",
+              "RelativeDocumentMoniker": "Chuyen\\Chuyen.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Chuyen\\Chuyen.cs [Design]",
+              "RelativeToolTip": "Chuyen\\Chuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:47:48.539Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Chuyen.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Chuyen\\Chuyen.cs",
+              "RelativeDocumentMoniker": "Chuyen\\Chuyen.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Chuyen\\Chuyen.cs",
+              "RelativeToolTip": "Chuyen\\Chuyen.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:47:37.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContractDetails.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.cs",
+              "RelativeDocumentMoniker": "Contract\\ContractDetails.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractDetails.cs",
+              "RelativeToolTip": "Contract\\ContractDetails.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAowIEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:43:37.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ContractMain.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractMain.cs",
+              "RelativeDocumentMoniker": "Contract\\ContractMain.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractMain.cs",
+              "RelativeToolTip": "Contract\\ContractMain.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAgwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:42:02.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContractMain.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractMain.cs",
+              "RelativeDocumentMoniker": "Contract\\ContractMain.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Contract\\ContractMain.cs [Design]",
+              "RelativeToolTip": "Contract\\ContractMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:41:51.258Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentBUS.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\BUS\\PaymentBUS.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\PaymentBUS.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\BUS\\PaymentBUS.cs",
+              "RelativeToolTip": "..\\BUS\\PaymentBUS.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwDAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:40:26.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhanCongBUS.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\BUS\\PhanCongBUS.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\PhanCongBUS.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\BUS\\PhanCongBUS.cs",
+              "RelativeToolTip": "..\\BUS\\PhanCongBUS.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:40:15.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhanCongDAO.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\PhanCongDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\PhanCongDAO.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\PhanCongDAO.cs",
+              "RelativeToolTip": "..\\DAO\\PhanCongDAO.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAApwKUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:39:21.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentDAO.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\PaymentDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\PaymentDAO.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\PaymentDAO.cs",
+              "RelativeToolTip": "..\\DAO\\PaymentDAO.cs",
+              "ViewState": "AQIAACoBAAAAAAAAAAAYwDYBAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:38:47.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DiemDanhDAO.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\DiemDanhDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\DiemDanhDAO.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\DiemDanhDAO.cs",
+              "RelativeToolTip": "..\\DAO\\DiemDanhDAO.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAYwHYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:38:17.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChuyenDAO.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\ChuyenDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ChuyenDAO.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\ChuyenDAO.cs",
+              "RelativeToolTip": "..\\DAO\\ChuyenDAO.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:38:12.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ContractDAO.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\ContractDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\ContractDAO.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DAO\\ContractDAO.cs",
+              "RelativeToolTip": "..\\DAO\\ContractDAO.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:33:41.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ThongKe.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\ThongKe.cs",
+              "RelativeDocumentMoniker": "Payment\\ThongKe.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\ThongKe.cs",
+              "RelativeToolTip": "Payment\\ThongKe.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwCEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:31:45.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ThongKe.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\ThongKe.cs",
+              "RelativeDocumentMoniker": "Payment\\ThongKe.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\ThongKe.cs [Design]",
+              "RelativeToolTip": "Payment\\ThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:31:29.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentMain.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\PaymentMain.cs",
+              "RelativeDocumentMoniker": "Payment\\PaymentMain.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Payment\\PaymentMain.cs [Design]",
+              "RelativeToolTip": "Payment\\PaymentMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T11:28:18.235Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ADD.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\TaiXe\\ADD.cs",
+              "RelativeDocumentMoniker": "Employee\\TaiXe\\ADD.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\TaiXe\\ADD.cs",
+              "RelativeToolTip": "Employee\\TaiXe\\ADD.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAwwH8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:55:40.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ADD.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\TaiXe\\ADD.cs",
+              "RelativeDocumentMoniker": "Employee\\TaiXe\\ADD.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\TaiXe\\ADD.cs [Design]",
+              "RelativeToolTip": "Employee\\TaiXe\\ADD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:55:37.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee\\Employee.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\Employee\\Employee.cs",
+              "RelativeToolTip": "Employee\\Employee.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:40:58.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmployeeDriverDAO.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\EmployeeDriverDAO.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan3\\HugoBus\\DAO\\EmployeeDriverDAO.cs",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAqwBcBAABGAwAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:31:44.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhanCong_DiemDanh.cs [Design]",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs [Design]",
+              "RelativeToolTip": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:15:18.386Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhanCong_DiemDanh.cs",
+              "DocumentMoniker": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "ToolTip": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "RelativeToolTip": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "ViewState": "AQIAAFABAAAAAAAAAAAiwMQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:56:01.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QWRSqwsOYjQ+57ffoJj0saVW67LQNsmkYE9cPNKZPPZ43TlJrPYOxq98eIzMbkEEschhLl0sL4tHllwabRByLA==",
+  "success": true,
+  "projectFilePath": "E:\\Admin_HUgoBus\\zerohope\\HugoBus\\DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.2\\microsoft.windowsdesktop.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.2\\microsoft.netcore.app.ref.8.0.2.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.2\\microsoft.aspnetcore.app.ref.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
