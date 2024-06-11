@@ -141,6 +141,7 @@
             button2.TabIndex = 27;
             button2.Text = "Thêm ảnh";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // pictureBox1
             // 
@@ -336,6 +337,7 @@
             button1.TabIndex = 9;
             button1.Text = "Clear All";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // buttonSave
             // 
@@ -349,6 +351,7 @@
             buttonSave.TabIndex = 8;
             buttonSave.Text = " Save ";
             buttonSave.UseVisualStyleBackColor = true;
+            buttonSave.Click += buttonSave_Click;
             // 
             // ADD
             // 

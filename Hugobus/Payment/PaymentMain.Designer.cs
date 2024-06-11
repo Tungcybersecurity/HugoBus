@@ -64,24 +64,27 @@
             panelInformation.Controls.Add(buttonReset);
             panelInformation.Controls.Add(buttonThem);
             panelInformation.Controls.Add(labelInformation);
-            panelInformation.Location = new Point(-5, 291);
+            panelInformation.Location = new Point(-6, 388);
+            panelInformation.Margin = new Padding(3, 4, 3, 4);
             panelInformation.Name = "panelInformation";
-            panelInformation.Size = new Size(1002, 124);
+            panelInformation.Size = new Size(1145, 165);
             panelInformation.TabIndex = 28;
             // 
             // textBoxIDHopDong
             // 
-            textBoxIDHopDong.Location = new Point(93, 40);
+            textBoxIDHopDong.Location = new Point(106, 53);
+            textBoxIDHopDong.Margin = new Padding(3, 4, 3, 4);
             textBoxIDHopDong.Name = "textBoxIDHopDong";
             textBoxIDHopDong.ReadOnly = true;
-            textBoxIDHopDong.Size = new Size(100, 23);
+            textBoxIDHopDong.Size = new Size(114, 27);
             textBoxIDHopDong.TabIndex = 28;
             // 
             // buttonThongKe
             // 
-            buttonThongKe.Location = new Point(804, 83);
+            buttonThongKe.Location = new Point(919, 111);
+            buttonThongKe.Margin = new Padding(3, 4, 3, 4);
             buttonThongKe.Name = "buttonThongKe";
-            buttonThongKe.Size = new Size(75, 23);
+            buttonThongKe.Size = new Size(86, 31);
             buttonThongKe.TabIndex = 27;
             buttonThongKe.Text = "Thống kê";
             buttonThongKe.UseVisualStyleBackColor = true;
@@ -89,9 +92,10 @@
             // 
             // buttonXoa
             // 
-            buttonXoa.Location = new Point(609, 83);
+            buttonXoa.Location = new Point(696, 111);
+            buttonXoa.Margin = new Padding(3, 4, 3, 4);
             buttonXoa.Name = "buttonXoa";
-            buttonXoa.Size = new Size(75, 23);
+            buttonXoa.Size = new Size(86, 31);
             buttonXoa.TabIndex = 26;
             buttonXoa.Text = "Xóa";
             buttonXoa.UseVisualStyleBackColor = true;
@@ -99,9 +103,10 @@
             // 
             // buttonSua
             // 
-            buttonSua.Location = new Point(430, 83);
+            buttonSua.Location = new Point(491, 111);
+            buttonSua.Margin = new Padding(3, 4, 3, 4);
             buttonSua.Name = "buttonSua";
-            buttonSua.Size = new Size(76, 23);
+            buttonSua.Size = new Size(87, 31);
             buttonSua.TabIndex = 25;
             buttonSua.Text = "Sửa";
             buttonSua.UseVisualStyleBackColor = true;
@@ -112,67 +117,71 @@
             comboBoxPhuongThuc.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxPhuongThuc.FormattingEnabled = true;
             comboBoxPhuongThuc.Items.AddRange(new object[] { "Ngân hàng", "Ví điện tử" });
-            comboBoxPhuongThuc.Location = new Point(869, 40);
+            comboBoxPhuongThuc.Location = new Point(993, 53);
+            comboBoxPhuongThuc.Margin = new Padding(3, 4, 3, 4);
             comboBoxPhuongThuc.Name = "comboBoxPhuongThuc";
-            comboBoxPhuongThuc.Size = new Size(121, 23);
+            comboBoxPhuongThuc.Size = new Size(138, 28);
             comboBoxPhuongThuc.TabIndex = 24;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(723, 43);
+            label3.Location = new Point(826, 57);
             label3.Name = "label3";
-            label3.Size = new Size(140, 15);
+            label3.Size = new Size(171, 20);
             label3.TabIndex = 23;
             label3.Text = "Phương thức thanh toán:";
             // 
             // textBoxSoTien
             // 
-            textBoxSoTien.Location = new Point(542, 40);
+            textBoxSoTien.Location = new Point(619, 53);
+            textBoxSoTien.Margin = new Padding(3, 4, 3, 4);
             textBoxSoTien.Name = "textBoxSoTien";
-            textBoxSoTien.Size = new Size(122, 23);
+            textBoxSoTien.Size = new Size(139, 27);
             textBoxSoTien.TabIndex = 22;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(490, 43);
+            label2.Location = new Point(560, 57);
             label2.Name = "label2";
-            label2.Size = new Size(46, 15);
+            label2.Size = new Size(58, 20);
             label2.TabIndex = 21;
             label2.Text = "Số tiền:";
             // 
             // dateTimePickerNgayThanhToan
             // 
             dateTimePickerNgayThanhToan.Format = DateTimePickerFormat.Short;
-            dateTimePickerNgayThanhToan.Location = new Point(331, 40);
+            dateTimePickerNgayThanhToan.Location = new Point(378, 53);
+            dateTimePickerNgayThanhToan.Margin = new Padding(3, 4, 3, 4);
             dateTimePickerNgayThanhToan.Name = "dateTimePickerNgayThanhToan";
-            dateTimePickerNgayThanhToan.Size = new Size(101, 23);
+            dateTimePickerNgayThanhToan.Size = new Size(115, 27);
             dateTimePickerNgayThanhToan.TabIndex = 19;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(226, 43);
+            label4.Location = new Point(258, 57);
             label4.Name = "label4";
-            label4.Size = new Size(99, 15);
+            label4.Size = new Size(122, 20);
             label4.TabIndex = 6;
             label4.Text = "Ngày thanh toán:";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(11, 43);
+            label1.Location = new Point(13, 57);
             label1.Name = "label1";
-            label1.Size = new Size(76, 15);
+            label1.Size = new Size(96, 20);
             label1.TabIndex = 3;
             label1.Text = "ID hợp đồng:";
             // 
             // buttonReset
             // 
-            buttonReset.Location = new Point(71, 83);
+            buttonReset.Location = new Point(81, 111);
+            buttonReset.Margin = new Padding(3, 4, 3, 4);
             buttonReset.Name = "buttonReset";
-            buttonReset.Size = new Size(75, 23);
+            buttonReset.Size = new Size(86, 31);
             buttonReset.TabIndex = 2;
             buttonReset.Text = "Reset";
             buttonReset.UseVisualStyleBackColor = true;
@@ -180,9 +189,10 @@
             // 
             // buttonThem
             // 
-            buttonThem.Location = new Point(250, 83);
+            buttonThem.Location = new Point(286, 111);
+            buttonThem.Margin = new Padding(3, 4, 3, 4);
             buttonThem.Name = "buttonThem";
-            buttonThem.Size = new Size(80, 23);
+            buttonThem.Size = new Size(91, 31);
             buttonThem.TabIndex = 1;
             buttonThem.Text = "Thêm";
             buttonThem.UseVisualStyleBackColor = true;
@@ -192,9 +202,9 @@
             // 
             labelInformation.AutoSize = true;
             labelInformation.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            labelInformation.Location = new Point(8, 7);
+            labelInformation.Location = new Point(9, 9);
             labelInformation.Name = "labelInformation";
-            labelInformation.Size = new Size(172, 21);
+            labelInformation.Size = new Size(214, 28);
             labelInformation.TabIndex = 0;
             labelInformation.Text = "Thông tin thanh toán";
             // 
@@ -202,7 +212,7 @@
             // 
             paymentTable.AllowUserToAddRows = false;
             paymentTable.AllowUserToDeleteRows = false;
-            paymentTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            paymentTable.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             paymentTable.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
             paymentTable.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             paymentTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -210,23 +220,25 @@
             paymentTable.FilterAndSortEnabled = true;
             paymentTable.FilterStringChangedInvokeBeforeDatasourceUpdate = true;
             paymentTable.Location = new Point(0, 0);
+            paymentTable.Margin = new Padding(3, 4, 3, 4);
             paymentTable.MaxFilterButtonImageHeight = 23;
             paymentTable.Name = "paymentTable";
             paymentTable.RightToLeft = RightToLeft.No;
             paymentTable.RowHeadersWidth = 51;
-            paymentTable.Size = new Size(997, 267);
+            paymentTable.Size = new Size(1139, 356);
             paymentTable.SortStringChangedInvokeBeforeDatasourceUpdate = true;
             paymentTable.TabIndex = 27;
             paymentTable.CellMouseClick += paymentTable_CellMouseClick;
             // 
             // PaymentMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(997, 425);
+            ClientSize = new Size(1139, 567);
             Controls.Add(panelInformation);
             Controls.Add(paymentTable);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "PaymentMain";
             Text = "PaymentMain";
             panelInformation.ResumeLayout(false);

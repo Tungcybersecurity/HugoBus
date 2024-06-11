@@ -69,3 +69,15 @@ E:\Admin_HUgoBus\zerohope\HugoBus\DTO\obj\Debug\net8.0\DTO.dll
 E:\Admin_HUgoBus\zerohope\HugoBus\DTO\obj\Debug\net8.0\refint\DTO.dll
 E:\Admin_HUgoBus\zerohope\HugoBus\DTO\obj\Debug\net8.0\DTO.pdb
 E:\Admin_HUgoBus\zerohope\HugoBus\DTO\obj\Debug\net8.0\ref\DTO.dll
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\bin\Debug\net8.0\DTO.deps.json
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\bin\Debug\net8.0\DTO.dll
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\bin\Debug\net8.0\DTO.pdb
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.AssemblyInfoInputs.cache
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.AssemblyInfo.cs
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.csproj.CoreCompileInputs.cache
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.sourcelink.json
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.dll
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\refint\DTO.dll
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\DTO.pdb
+D:\Detainhom18\cuaTuan4\HugoBus_Form\DTO\obj\Debug\net8.0\ref\DTO.dll

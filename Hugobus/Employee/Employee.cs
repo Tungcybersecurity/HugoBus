@@ -15,6 +15,7 @@ using ClosedXML.Excel;
 
 
 
+
 namespace GUI.Employee
 {
     public partial class Employee : Form
@@ -64,8 +65,8 @@ namespace GUI.Employee
                 int idtaixe = int.Parse(dataGridViewTaiXe.Rows[row].Cells["ColumnId"].Value.ToString());
                 DateTime currentDate = DateTime.Now;
                 string formattedDate = currentDate.ToString("yyyy-MM-dd");
-                DataTable dt = service.getLich(idtaixe, "2024-06-17");
-                string folderpath = "D:\\Detainhom18\\Driver\\a.xlsx";
+                DataTable dt = service.getLich(idtaixe, formattedDate);
+                string folderpath = String.Format("D:\\Detainhom18\\Driver\\driver{0}.xlsx", idtaixe);
 
                 Microsoft.Office.Interop.Excel.Application objexcelapp = new Microsoft.Office.Interop.Excel.Application();
                 objexcelapp.Application.Workbooks.Add(Type.Missing);
@@ -149,6 +150,44 @@ namespace GUI.Employee
                 }
                 dataGridViewBaoMau.DataSource = service2.getDuLieu();
             }
+            if (dataGridViewBaoMau.Columns[e.ColumnIndex] is DataGridViewImageColumn && dataGridViewBaoMau.Columns[e.ColumnIndex].Name == "cotin")
+            {
+                int row = e.RowIndex;
+                int idbaomau = int.Parse(dataGridViewBaoMau.Rows[row].Cells["cotid"].Value.ToString());
+                DateTime currentDate = DateTime.Now;
+                string formattedDate = currentDate.ToString("yyyy-MM-dd");
+                DataTable dt = service2.getLich(idbaomau, formattedDate);
+                string folderpath = String.Format("D:\\Detainhom18\\Nanny\\driver{0}.xlsx", idbaomau);
+
+                Microsoft.Office.Interop.Excel.Application objexcelapp = new Microsoft.Office.Interop.Excel.Application();
+                objexcelapp.Application.Workbooks.Add(Type.Missing);
+
+                for (int i = 0; i < dt.Columns.Count; i++)
+                {
+                    objexcelapp.Cells[1, i + 1] = dt.Columns[i].ColumnName; // Điều chỉnh chỉ số và truy cập cột
+                }
+
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    for (int j = 0; j < dt.Columns.Count; j++)
+                    {
+                        if (dt.Rows[i][j] != null)
+                        {
+                            objexcelapp.Cells[i + 2, j + 1] = dt.Rows[i][j].ToString(); // Điều chỉnh chỉ số và truy cập hàng, cột
+                        }
+                    }
+                }
+
+                objexcelapp.Columns.AutoFit();
+
+                objexcelapp.ActiveWorkbook.SaveCopyAs(folderpath);
+                objexcelapp.ActiveWorkbook.Saved = true;
+                objexcelapp.Quit();
+
+                // Giải phóng tài nguyên
+                System.Runtime.InteropServices.Marshal.ReleaseComObject(objexcelapp);
+            }
+
         }
 
         private void buttonTimkiem_Click(object sender, EventArgs e)
@@ -174,6 +213,7 @@ namespace GUI.Employee
         private void button3_Click(object sender, EventArgs e)
         {
             dataGridViewBaoMau.DataSource = service2.getDuLieu();
+
         }
     }
 }
