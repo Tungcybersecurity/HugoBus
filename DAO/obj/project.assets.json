@@ -1807,11 +1807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
+      "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
+      "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\AppDeTai\\DAO\\obj\\",
+      "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1828,8 +1828,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
+            "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
             }
           }
         }

@@ -21,5 +21,23 @@ namespace GUI.Login
         {
 
         }
+
+        private void buttonlogin_Click(object sender, EventArgs e)
+        {
+           string account = textusername.Text;
+           string password = textPassword.Text;
+
+           if(account == "admin" && password == "admin")
+            {
+                //this.Close();
+                Home.Home new_form = new Home.Home();
+                this.Hide();
+                new_form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Nhập sai tài khoản hoặc mật khẩu", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
     }
 }

@@ -60,41 +60,50 @@ namespace GUI.Home
         {
             isactive = !isactive;
             OpenChildForm(new Student.StudentMain(), sender);
+            labelHome.Text = "Thông tin học sinh";
         }
 
         private void buttonQlTaiKhoan_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            OpenChildForm(new UserAccount.useraccount(),sender);
+            labelHome.Text = "Thông tin tài khoản";
         }
 
         private void buttonQLHợpĐồng_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            OpenChildForm(new Contract.ContractMain(), sender);
+            labelHome.Text = "Thông tin hợp đồng";
         }
 
         private void buttonQLChuyen_Click(object sender, EventArgs e)
         {
 
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            OpenChildForm(new Chuyen.Chuyen(), sender);
+            labelHome.Text = "Thông tin chuyến";
         }
 
         private void buttonQLPhanCong_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+            OpenChildForm(new PhanCong_DiemDanh.PhanCong_DiemDanh(), sender);
+            labelHome.Text = "Quản lý phân công";
         }
 
         private void buttonQLDoanhThu_Click(object sender, EventArgs e)
-        {isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+        {
+            isactive = !isactive;
+            OpenChildForm(new Payment.PaymentMain(), sender);
+            labelHome.Text = "Doanh thu";
         }
 
         private void buttonQLNhanVien_Click(object sender, EventArgs e)
-        {isactive = !isactive;
-            UpdateButtoApperance((Button)sender);
+        {
+            isactive = !isactive;
+            OpenChildForm(new Employee.Employee(),sender);
+            labelHome.Text = "Thông tin nhân viên";
         }
     }
 }

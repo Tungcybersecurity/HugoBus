@@ -14,7 +14,7 @@ namespace Hugobus
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new Home());
+            Application.Run(new Login());
             
         }
     }

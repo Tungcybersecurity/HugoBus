@@ -1826,11 +1826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
+      "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
       "projectName": "BUS",
-      "projectPath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
+      "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\AppDeTai\\BUS\\obj\\",
+      "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1847,11 +1847,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\AppDeTai\\DAO\\DAO.csproj": {
-              "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj"
+            "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj": {
+              "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj"
             },
-            "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
+            "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
             }
           }
         }

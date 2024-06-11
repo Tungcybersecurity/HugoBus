@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
+      "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
+      "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\AppDeTai\\DTO\\obj\\",
+      "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

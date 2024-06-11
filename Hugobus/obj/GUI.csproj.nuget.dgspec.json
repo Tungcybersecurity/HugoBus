@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj": {}
+    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj": {}
   },
   "projects": {
-    "D:\\Github\\AppDeTai\\BUS\\BUS.csproj": {
+    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AppDeTai\\BUS\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Github\\AppDeTai\\DAO\\DAO.csproj": {
-                "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj"
+              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj"
               },
-              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\Github\\AppDeTai\\DAO\\DAO.csproj": {
+    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "D:\\Github\\AppDeTai\\DAO\\DAO.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AppDeTai\\DAO\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
+    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AppDeTai\\DTO\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj": {
+    "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj",
+        "projectUniqueName": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "D:\\Github\\AppDeTai\\Hugobus\\GUI.csproj",
+        "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\GUI.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AppDeTai\\Hugobus\\obj\\",
+        "outputPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\Hugobus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -225,11 +225,11 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Github\\AppDeTai\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj"
+              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj"
               },
-              "D:\\Github\\AppDeTai\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\Github\\AppDeTai\\DTO\\DTO.csproj"
+              "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj": {
+                "projectPath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\DTO\\DTO.csproj"
               }
             }
           }
@@ -249,9 +249,37 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "ADGV": {
+              "target": "Package",
+              "version": "[0.1.0.10, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.97.0, )"
+            },
             "DG.AdvancedDataGridView": {
               "target": "Package",
               "version": "[1.2.29301.14, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "DocumentFormat.OpenXml.Framework": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.Chart.Controls": {
+              "target": "Package",
+              "version": "[4.7.2046, )"
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1001, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.9.2, )"
             }
           },
           "imports": [

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fyTy74DBPVF/1t8K7GW7YQuz6Q7S5djNsla5aNSoTEnxNrxyQcFbQukTI/NeUu4ToMxeMzgHTXzsHYVYxJPOyg==",
+  "dgSpecHash": "MxfaAIH3umWs+gQsgUxhhhL/TVgywEpnXcUebIdZuDNCNIPJ3+eXJ3N68gDz/VA0nq7PYUqSgWIonvGQ5baiSw==",
   "success": true,
-  "projectFilePath": "D:\\Github\\AppDeTai\\BUS\\BUS.csproj",
+  "projectFilePath": "D:\\Detainhom18\\cuaTuan\\HugoBus\\HugoBus\\BUS\\BUS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

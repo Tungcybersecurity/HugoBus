@@ -33,6 +33,12 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             dataGridViewHocSinh = new DataGridView();
+            pictureBox1 = new PictureBox();
+            textBoxTimKiem = new TextBox();
+            comboBoxTimKiem = new ComboBox();
+            timer1 = new System.Windows.Forms.Timer(components);
+            buttonupdate = new Button();
+            buttonTimkiem = new Button();
             ColumnId = new DataGridViewTextBoxColumn();
             ColumnHo = new DataGridViewTextBoxColumn();
             ColumnTen = new DataGridViewTextBoxColumn();
@@ -41,20 +47,16 @@
             ColumnTruong = new DataGridViewTextBoxColumn();
             ColumnLop = new DataGridViewTextBoxColumn();
             ColumnTenDangNhap = new DataGridViewTextBoxColumn();
+            Columnfilepath = new DataGridViewTextBoxColumn();
             ColumnDelete = new DataGridViewImageColumn();
             ColumnChiTiet = new DataGridViewImageColumn();
-            pictureBox1 = new PictureBox();
-            textBoxTimKiem = new TextBox();
-            comboBoxTimKiem = new ComboBox();
-            timer1 = new System.Windows.Forms.Timer(components);
-            buttonupdate = new Button();
-            buttonTimkiem = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridViewHocSinh).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // dataGridViewHocSinh
             // 
+            dataGridViewHocSinh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewHocSinh.BackgroundColor = Color.White;
             dataGridViewHocSinh.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -66,9 +68,10 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridViewHocSinh.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewHocSinh.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewHocSinh.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnTruong, ColumnLop, ColumnTenDangNhap, ColumnDelete, ColumnChiTiet });
+            dataGridViewHocSinh.Columns.AddRange(new DataGridViewColumn[] { ColumnId, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, ColumnTruong, ColumnLop, ColumnTenDangNhap, Columnfilepath, ColumnDelete, ColumnChiTiet });
             dataGridViewHocSinh.Dock = DockStyle.Top;
             dataGridViewHocSinh.Location = new Point(0, 0);
+            dataGridViewHocSinh.Margin = new Padding(2);
             dataGridViewHocSinh.Name = "dataGridViewHocSinh";
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = Color.MediumSeaGreen;
@@ -81,99 +84,18 @@
             dataGridViewHocSinh.RowHeadersWidth = 62;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dataGridViewHocSinh.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            dataGridViewHocSinh.Size = new Size(1159, 433);
+            dataGridViewHocSinh.Size = new Size(927, 346);
             dataGridViewHocSinh.TabIndex = 0;
             dataGridViewHocSinh.CellClick += Event_CellClík;
             dataGridViewHocSinh.CellContentClick += content;
             // 
-            // ColumnId
-            // 
-            ColumnId.DataPropertyName = "IdHocSinh";
-            ColumnId.HeaderText = "Id";
-            ColumnId.MinimumWidth = 8;
-            ColumnId.Name = "ColumnId";
-            ColumnId.Width = 150;
-            // 
-            // ColumnHo
-            // 
-            ColumnHo.DataPropertyName = "Ho";
-            ColumnHo.HeaderText = "Họ";
-            ColumnHo.MinimumWidth = 8;
-            ColumnHo.Name = "ColumnHo";
-            ColumnHo.Width = 150;
-            // 
-            // ColumnTen
-            // 
-            ColumnTen.DataPropertyName = "Ten";
-            ColumnTen.HeaderText = "Tên";
-            ColumnTen.MinimumWidth = 8;
-            ColumnTen.Name = "ColumnTen";
-            ColumnTen.Width = 150;
-            // 
-            // ColumnGioiTinh
-            // 
-            ColumnGioiTinh.DataPropertyName = "GioiTinh";
-            ColumnGioiTinh.HeaderText = "Giới tính";
-            ColumnGioiTinh.MinimumWidth = 8;
-            ColumnGioiTinh.Name = "ColumnGioiTinh";
-            ColumnGioiTinh.Width = 150;
-            // 
-            // ColumnNgaySinh
-            // 
-            ColumnNgaySinh.DataPropertyName = "NgaySinh";
-            ColumnNgaySinh.HeaderText = "Ngày sinh";
-            ColumnNgaySinh.MinimumWidth = 8;
-            ColumnNgaySinh.Name = "ColumnNgaySinh";
-            ColumnNgaySinh.Width = 150;
-            // 
-            // ColumnTruong
-            // 
-            ColumnTruong.DataPropertyName = "Truong";
-            ColumnTruong.HeaderText = "Trường";
-            ColumnTruong.MinimumWidth = 8;
-            ColumnTruong.Name = "ColumnTruong";
-            ColumnTruong.Width = 150;
-            // 
-            // ColumnLop
-            // 
-            ColumnLop.DataPropertyName = "Lop";
-            ColumnLop.HeaderText = "Lớp";
-            ColumnLop.MinimumWidth = 8;
-            ColumnLop.Name = "ColumnLop";
-            ColumnLop.Width = 150;
-            // 
-            // ColumnTenDangNhap
-            // 
-            ColumnTenDangNhap.DataPropertyName = "TenDangNhap";
-            ColumnTenDangNhap.HeaderText = "Tên đăng nhập";
-            ColumnTenDangNhap.MinimumWidth = 8;
-            ColumnTenDangNhap.Name = "ColumnTenDangNhap";
-            ColumnTenDangNhap.Width = 150;
-            // 
-            // ColumnDelete
-            // 
-            ColumnDelete.HeaderText = "";
-            ColumnDelete.Image = Properties.Resources.trash;
-            ColumnDelete.MinimumWidth = 8;
-            ColumnDelete.Name = "ColumnDelete";
-            ColumnDelete.Resizable = DataGridViewTriState.True;
-            ColumnDelete.Width = 150;
-            // 
-            // ColumnChiTiet
-            // 
-            ColumnChiTiet.HeaderText = "";
-            ColumnChiTiet.Image = Properties.Resources.moredetail;
-            ColumnChiTiet.MinimumWidth = 8;
-            ColumnChiTiet.Name = "ColumnChiTiet";
-            ColumnChiTiet.Resizable = DataGridViewTriState.True;
-            ColumnChiTiet.Width = 150;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.search;
-            pictureBox1.Location = new Point(5, 450);
+            pictureBox1.Location = new Point(4, 360);
+            pictureBox1.Margin = new Padding(2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(150, 75);
+            pictureBox1.Size = new Size(120, 60);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -181,20 +103,21 @@
             // textBoxTimKiem
             // 
             textBoxTimKiem.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBoxTimKiem.Location = new Point(380, 475);
+            textBoxTimKiem.Location = new Point(304, 380);
+            textBoxTimKiem.Margin = new Padding(2);
             textBoxTimKiem.Name = "textBoxTimKiem";
-            textBoxTimKiem.Size = new Size(333, 50);
+            textBoxTimKiem.Size = new Size(267, 43);
             textBoxTimKiem.TabIndex = 2;
-         
             // 
             // comboBoxTimKiem
             // 
             comboBoxTimKiem.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBoxTimKiem.FormattingEnabled = true;
             comboBoxTimKiem.Items.AddRange(new object[] { "Trường", "Tên", "ID", "Tên đăng nhập" });
-            comboBoxTimKiem.Location = new Point(161, 487);
+            comboBoxTimKiem.Location = new Point(129, 390);
+            comboBoxTimKiem.Margin = new Padding(2);
             comboBoxTimKiem.Name = "comboBoxTimKiem";
-            comboBoxTimKiem.Size = new Size(173, 38);
+            comboBoxTimKiem.Size = new Size(139, 33);
             comboBoxTimKiem.TabIndex = 3;
             // 
             // timer1
@@ -209,9 +132,10 @@
             buttonupdate.FlatStyle = FlatStyle.Popup;
             buttonupdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonupdate.ForeColor = Color.White;
-            buttonupdate.Location = new Point(997, 465);
+            buttonupdate.Location = new Point(798, 372);
+            buttonupdate.Margin = new Padding(2);
             buttonupdate.Name = "buttonupdate";
-            buttonupdate.Size = new Size(150, 60);
+            buttonupdate.Size = new Size(120, 48);
             buttonupdate.TabIndex = 4;
             buttonupdate.Text = "UPDATE";
             buttonupdate.UseVisualStyleBackColor = false;
@@ -223,20 +147,101 @@
             buttonTimkiem.FlatStyle = FlatStyle.Popup;
             buttonTimkiem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonTimkiem.ForeColor = Color.White;
-            buttonTimkiem.Location = new Point(737, 475);
+            buttonTimkiem.Location = new Point(590, 380);
+            buttonTimkiem.Margin = new Padding(2);
             buttonTimkiem.Name = "buttonTimkiem";
-            buttonTimkiem.Size = new Size(150, 50);
+            buttonTimkiem.Size = new Size(120, 40);
             buttonTimkiem.TabIndex = 4;
             buttonTimkiem.Text = "SEARCH";
             buttonTimkiem.UseVisualStyleBackColor = false;
             buttonTimkiem.Click += buttonTimkiem_Click;
             // 
+            // ColumnId
+            // 
+            ColumnId.DataPropertyName = "IdHocSinh";
+            ColumnId.HeaderText = "Id";
+            ColumnId.MinimumWidth = 8;
+            ColumnId.Name = "ColumnId";
+            // 
+            // ColumnHo
+            // 
+            ColumnHo.DataPropertyName = "Ho";
+            ColumnHo.HeaderText = "Họ";
+            ColumnHo.MinimumWidth = 8;
+            ColumnHo.Name = "ColumnHo";
+            // 
+            // ColumnTen
+            // 
+            ColumnTen.DataPropertyName = "Ten";
+            ColumnTen.HeaderText = "Tên";
+            ColumnTen.MinimumWidth = 8;
+            ColumnTen.Name = "ColumnTen";
+            // 
+            // ColumnGioiTinh
+            // 
+            ColumnGioiTinh.DataPropertyName = "GioiTinh";
+            ColumnGioiTinh.HeaderText = "Giới tính";
+            ColumnGioiTinh.MinimumWidth = 8;
+            ColumnGioiTinh.Name = "ColumnGioiTinh";
+            // 
+            // ColumnNgaySinh
+            // 
+            ColumnNgaySinh.DataPropertyName = "NgaySinh";
+            ColumnNgaySinh.HeaderText = "Ngày sinh";
+            ColumnNgaySinh.MinimumWidth = 8;
+            ColumnNgaySinh.Name = "ColumnNgaySinh";
+            // 
+            // ColumnTruong
+            // 
+            ColumnTruong.DataPropertyName = "Truong";
+            ColumnTruong.HeaderText = "Trường";
+            ColumnTruong.MinimumWidth = 8;
+            ColumnTruong.Name = "ColumnTruong";
+            // 
+            // ColumnLop
+            // 
+            ColumnLop.DataPropertyName = "Lop";
+            ColumnLop.HeaderText = "Lớp";
+            ColumnLop.MinimumWidth = 8;
+            ColumnLop.Name = "ColumnLop";
+            // 
+            // ColumnTenDangNhap
+            // 
+            ColumnTenDangNhap.DataPropertyName = "TenDangNhap";
+            ColumnTenDangNhap.HeaderText = "Tên đăng nhập";
+            ColumnTenDangNhap.MinimumWidth = 8;
+            ColumnTenDangNhap.Name = "ColumnTenDangNhap";
+            // 
+            // Columnfilepath
+            // 
+            Columnfilepath.DataPropertyName = "filepathimage";
+            Columnfilepath.HeaderText = "Column1";
+            Columnfilepath.MinimumWidth = 6;
+            Columnfilepath.Name = "Columnfilepath";
+            Columnfilepath.Visible = false;
+            // 
+            // ColumnDelete
+            // 
+            ColumnDelete.HeaderText = "";
+            ColumnDelete.Image = Properties.Resources.trash;
+            ColumnDelete.MinimumWidth = 8;
+            ColumnDelete.Name = "ColumnDelete";
+            ColumnDelete.Resizable = DataGridViewTriState.True;
+            // 
+            // ColumnChiTiet
+            // 
+            ColumnChiTiet.HeaderText = "";
+            ColumnChiTiet.Image = Properties.Resources.moredetail;
+            ColumnChiTiet.MinimumWidth = 8;
+            ColumnChiTiet.Name = "ColumnChiTiet";
+            ColumnChiTiet.Resizable = DataGridViewTriState.True;
+            // 
             // StudentMain
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1159, 723);
+            ClientSize = new Size(927, 578);
             Controls.Add(buttonTimkiem);
             Controls.Add(buttonupdate);
             Controls.Add(comboBoxTimKiem);
@@ -244,7 +249,8 @@
             Controls.Add(pictureBox1);
             Controls.Add(dataGridViewHocSinh);
             FormBorderStyle = FormBorderStyle.None;
-            MinimumSize = new Size(1159, 618);
+            Margin = new Padding(2);
+            MinimumSize = new Size(927, 494);
             Name = "StudentMain";
             Text = "StudentMain";
             Load += load;
@@ -260,6 +266,9 @@
         private PictureBox pictureBox1;
         private TextBox textBoxTimKiem;
         private ComboBox comboBoxTimKiem;
+        private System.Windows.Forms.Timer timer1;
+        private Button buttonupdate;
+        private Button buttonTimkiem;
         private DataGridViewTextBoxColumn ColumnId;
         private DataGridViewTextBoxColumn ColumnHo;
         private DataGridViewTextBoxColumn ColumnTen;
@@ -268,10 +277,8 @@
         private DataGridViewTextBoxColumn ColumnTruong;
         private DataGridViewTextBoxColumn ColumnLop;
         private DataGridViewTextBoxColumn ColumnTenDangNhap;
+        private DataGridViewTextBoxColumn Columnfilepath;
         private DataGridViewImageColumn ColumnDelete;
         private DataGridViewImageColumn ColumnChiTiet;
-        private System.Windows.Forms.Timer timer1;
-        private Button buttonupdate;
-        private Button buttonTimkiem;
     }
 }
