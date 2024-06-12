@@ -1,0 +1,16 @@
+D:\AppDeTai\Hugobus\bin\Debug\net8.0-windows\Hugobus.exe
+D:\AppDeTai\Hugobus\bin\Debug\net8.0-windows\Hugobus.deps.json
+D:\AppDeTai\Hugobus\bin\Debug\net8.0-windows\Hugobus.runtimeconfig.json
+D:\AppDeTai\Hugobus\bin\Debug\net8.0-windows\Hugobus.dll
+D:\AppDeTai\Hugobus\bin\Debug\net8.0-windows\Hugobus.pdb
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.Form1.resources
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.csproj.GenerateResource.cache
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.GeneratedMSBuildEditorConfig.editorconfig
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.AssemblyInfoInputs.cache
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.AssemblyInfo.cs
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.csproj.CoreCompileInputs.cache
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.dll
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\refint\Hugobus.dll
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.pdb
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\Hugobus.genruntimeconfig.cache
+D:\AppDeTai\Hugobus\obj\Debug\net8.0-windows\ref\Hugobus.dll
