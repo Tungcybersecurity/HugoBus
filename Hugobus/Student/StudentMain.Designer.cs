@@ -227,6 +227,7 @@
             ColumnDelete.MinimumWidth = 8;
             ColumnDelete.Name = "ColumnDelete";
             ColumnDelete.Resizable = DataGridViewTriState.True;
+            ColumnDelete.Visible = false;
             // 
             // ColumnChiTiet
             // 

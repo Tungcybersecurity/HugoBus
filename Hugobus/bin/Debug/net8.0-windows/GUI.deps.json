@@ -480,14 +480,7 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.IO.Packaging/8.0.0": {
-        "runtime": {
-          "lib/net8.0/System.IO.Packaging.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
+      "System.IO.Packaging/8.0.0": {},
       "System.IO.Pipelines/6.0.3": {
         "runtime": {
           "lib/net6.0/System.IO.Pipelines.dll": {

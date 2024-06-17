@@ -22,7 +22,7 @@ namespace GUI.Employee.TaiXe
             id = driver.Idtaixe;
             textBoxHo.Text = driver.Ho;
             textBoxTen.Text = driver.Ten;
-            textBoxDiaChi.Text = driver.Diachi;
+            textBoxDia.Text = driver.Diachi;
             textBoxCCCD.Text = driver.Cccd;
             textBoxGioiTinh.Text = driver.Gioitinh;
             textBoxEmail.Text = driver.Email;

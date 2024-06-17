@@ -66,10 +66,8 @@
             label19 = new Label();
             textBoxHo = new TextBox();
             labelHo = new Label();
-            label1 = new Label();
             label5 = new Label();
             label4 = new Label();
-            label3 = new Label();
             label2 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -303,6 +301,7 @@
             textBoxMatKhau.ReadOnly = true;
             textBoxMatKhau.Size = new Size(675, 27);
             textBoxMatKhau.TabIndex = 124;
+            textBoxMatKhau.Visible = false;
             // 
             // label9
             // 
@@ -314,6 +313,7 @@
             label9.Size = new Size(84, 23);
             label9.TabIndex = 117;
             label9.Text = "Mật khẩu";
+            label9.Visible = false;
             // 
             // textBoxEmail
             // 
@@ -472,19 +472,6 @@
             labelHo.TabIndex = 110;
             labelHo.Text = "Họ";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Image = Properties.Resources.pencil1;
-            label1.Location = new Point(784, 454);
-            label1.Margin = new Padding(2, 0, 2, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(26, 41);
-            label1.TabIndex = 151;
-            label1.Text = " ";
-            label1.Click += suamatkhau;
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -511,19 +498,6 @@
             label4.Text = " ";
             label4.Click += suasdt;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Image = Properties.Resources.pencil1;
-            label3.Location = new Point(784, 405);
-            label3.Margin = new Padding(2, 0, 2, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(26, 41);
-            label3.TabIndex = 149;
-            label3.Text = " ";
-            label3.Click += suataikhoan;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -542,9 +516,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(811, 573);
-            Controls.Add(label1);
             Controls.Add(label2);
-            Controls.Add(label3);
             Controls.Add(label4);
             Controls.Add(label5);
             Controls.Add(labelSuaNgaySinh);

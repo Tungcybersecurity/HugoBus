@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             tbxTruongDen = new TextBox();
             tbxTramDon = new TextBox();
             tbxTrangThai = new TextBox();
@@ -210,6 +211,7 @@
             buttonXoa.TabIndex = 2;
             buttonXoa.Text = "Xóa";
             buttonXoa.UseVisualStyleBackColor = false;
+            buttonXoa.Visible = false;
             buttonXoa.Click += buttonXoa_Click;
             // 
             // buttonChitiet
@@ -271,6 +273,14 @@
             contractTable.BackgroundColor = SystemColors.ButtonHighlight;
             contractTable.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
             contractTable.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            contractTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             contractTable.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             contractTable.Dock = DockStyle.Top;
             contractTable.FilterAndSortEnabled = true;
@@ -280,14 +290,14 @@
             contractTable.MaxFilterButtonImageHeight = 23;
             contractTable.Name = "contractTable";
             contractTable.RightToLeft = RightToLeft.No;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            contractTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            contractTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             contractTable.RowHeadersWidth = 51;
             contractTable.Size = new Size(1200, 400);
             contractTable.SortStringChangedInvokeBeforeDatasourceUpdate = true;

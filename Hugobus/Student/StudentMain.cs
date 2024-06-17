@@ -57,17 +57,21 @@ namespace GUI.Student
 
                 int idhocsinh = int.Parse(dataGridViewHocSinh.Rows[rowIndex].Cells["ColumnId"].Value.ToString());
 
-                if (service.xoaHocSinh(idhocsinh) == true)
+                DialogResult result = MessageBox.Show("Bạn có muốn xoá?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-                    MessageBox.Show("Dữ liệu đã được xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dataGridViewHocSinh.DataSource = service.duLieu();
-                }
-                else
-                {
-                    MessageBox.Show("Không thể xoá dữ liệu.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+                    if (service.xoaHocSinh(idhocsinh) == true)
+                    {
+                        MessageBox.Show("Dữ liệu xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dataGridViewHocSinh.DataSource = service.duLieu();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Dữ liệu xoá không thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
 
 
+                }
             }
         }
 

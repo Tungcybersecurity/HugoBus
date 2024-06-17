@@ -28,10 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             dataGridViewUser = new DataGridView();
+            buttonTimkiem = new Button();
+            buttonupdate = new Button();
+            comboBoxTimKiem = new ComboBox();
+            textBoxTimKiem = new TextBox();
+            pictureBox1 = new PictureBox();
             Columnaccount = new DataGridViewTextBoxColumn();
             ColumnHo = new DataGridViewTextBoxColumn();
             ColumnTen = new DataGridViewTextBoxColumn();
@@ -42,11 +47,6 @@
             Columndiachi = new DataGridViewTextBoxColumn();
             ColumnDelete = new DataGridViewImageColumn();
             ColumnChiTiet = new DataGridViewImageColumn();
-            buttonTimkiem = new Button();
-            buttonupdate = new Button();
-            comboBoxTimKiem = new ComboBox();
-            textBoxTimKiem = new TextBox();
-            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewUser).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -56,106 +56,34 @@
             dataGridViewUser.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewUser.BackgroundColor = Color.White;
             dataGridViewUser.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = Color.MediumSeaGreen;
-            dataGridViewCellStyle4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle4.ForeColor = Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-            dataGridViewUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.MediumSeaGreen;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridViewUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewUser.Columns.AddRange(new DataGridViewColumn[] { Columnaccount, ColumnHo, ColumnTen, ColumnGioiTinh, ColumnNgaySinh, Columnemail, Columnsdt, Columndiachi, ColumnDelete, ColumnChiTiet });
             dataGridViewUser.Dock = DockStyle.Top;
             dataGridViewUser.Location = new Point(0, 0);
             dataGridViewUser.Margin = new Padding(2, 3, 2, 3);
             dataGridViewUser.Name = "dataGridViewUser";
-            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = Color.MediumSeaGreen;
-            dataGridViewCellStyle5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle5.ForeColor = Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
-            dataGridViewUser.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.MediumSeaGreen;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridViewUser.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridViewUser.RowHeadersWidth = 62;
-            dataGridViewCellStyle6.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewUser.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewUser.RowsDefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewUser.Size = new Size(914, 444);
             dataGridViewUser.TabIndex = 2;
             dataGridViewUser.CellContentClick += contenClick;
-            // 
-            // Columnaccount
-            // 
-            Columnaccount.DataPropertyName = "tendangnhap";
-            Columnaccount.HeaderText = "Tên đăng nhập";
-            Columnaccount.MinimumWidth = 8;
-            Columnaccount.Name = "Columnaccount";
-            // 
-            // ColumnHo
-            // 
-            ColumnHo.DataPropertyName = "Ho";
-            ColumnHo.HeaderText = "Họ";
-            ColumnHo.MinimumWidth = 8;
-            ColumnHo.Name = "ColumnHo";
-            // 
-            // ColumnTen
-            // 
-            ColumnTen.DataPropertyName = "Ten";
-            ColumnTen.HeaderText = "Tên";
-            ColumnTen.MinimumWidth = 8;
-            ColumnTen.Name = "ColumnTen";
-            // 
-            // ColumnGioiTinh
-            // 
-            ColumnGioiTinh.DataPropertyName = "GioiTinh";
-            ColumnGioiTinh.HeaderText = "Giới tính";
-            ColumnGioiTinh.MinimumWidth = 8;
-            ColumnGioiTinh.Name = "ColumnGioiTinh";
-            // 
-            // ColumnNgaySinh
-            // 
-            ColumnNgaySinh.DataPropertyName = "NgaySinh";
-            ColumnNgaySinh.HeaderText = "Ngày sinh";
-            ColumnNgaySinh.MinimumWidth = 8;
-            ColumnNgaySinh.Name = "ColumnNgaySinh";
-            // 
-            // Columnemail
-            // 
-            Columnemail.DataPropertyName = "email";
-            Columnemail.HeaderText = "Email";
-            Columnemail.MinimumWidth = 8;
-            Columnemail.Name = "Columnemail";
-            // 
-            // Columnsdt
-            // 
-            Columnsdt.DataPropertyName = "sdt";
-            Columnsdt.HeaderText = "SĐT";
-            Columnsdt.MinimumWidth = 8;
-            Columnsdt.Name = "Columnsdt";
-            // 
-            // Columndiachi
-            // 
-            Columndiachi.DataPropertyName = "diachi";
-            Columndiachi.HeaderText = "Địa chỉ";
-            Columndiachi.MinimumWidth = 8;
-            Columndiachi.Name = "Columndiachi";
-            // 
-            // ColumnDelete
-            // 
-            ColumnDelete.HeaderText = "";
-            ColumnDelete.Image = Properties.Resources.trash;
-            ColumnDelete.MinimumWidth = 8;
-            ColumnDelete.Name = "ColumnDelete";
-            ColumnDelete.Resizable = DataGridViewTriState.True;
-            // 
-            // ColumnChiTiet
-            // 
-            ColumnChiTiet.HeaderText = "";
-            ColumnChiTiet.Image = Properties.Resources.moredetail;
-            ColumnChiTiet.MinimumWidth = 8;
-            ColumnChiTiet.Name = "ColumnChiTiet";
-            ColumnChiTiet.Resizable = DataGridViewTriState.True;
             // 
             // buttonTimkiem
             // 
@@ -220,6 +148,79 @@
             pictureBox1.TabIndex = 10;
             pictureBox1.TabStop = false;
             // 
+            // Columnaccount
+            // 
+            Columnaccount.DataPropertyName = "tendangnhap";
+            Columnaccount.HeaderText = "Tên đăng nhập";
+            Columnaccount.MinimumWidth = 8;
+            Columnaccount.Name = "Columnaccount";
+            // 
+            // ColumnHo
+            // 
+            ColumnHo.DataPropertyName = "Ho";
+            ColumnHo.HeaderText = "Họ";
+            ColumnHo.MinimumWidth = 8;
+            ColumnHo.Name = "ColumnHo";
+            // 
+            // ColumnTen
+            // 
+            ColumnTen.DataPropertyName = "Ten";
+            ColumnTen.HeaderText = "Tên";
+            ColumnTen.MinimumWidth = 8;
+            ColumnTen.Name = "ColumnTen";
+            // 
+            // ColumnGioiTinh
+            // 
+            ColumnGioiTinh.DataPropertyName = "GioiTinh";
+            ColumnGioiTinh.HeaderText = "Giới tính";
+            ColumnGioiTinh.MinimumWidth = 8;
+            ColumnGioiTinh.Name = "ColumnGioiTinh";
+            // 
+            // ColumnNgaySinh
+            // 
+            ColumnNgaySinh.DataPropertyName = "NgaySinh";
+            ColumnNgaySinh.HeaderText = "Ngày sinh";
+            ColumnNgaySinh.MinimumWidth = 8;
+            ColumnNgaySinh.Name = "ColumnNgaySinh";
+            // 
+            // Columnemail
+            // 
+            Columnemail.DataPropertyName = "email";
+            Columnemail.HeaderText = "Email";
+            Columnemail.MinimumWidth = 8;
+            Columnemail.Name = "Columnemail";
+            // 
+            // Columnsdt
+            // 
+            Columnsdt.DataPropertyName = "sdt";
+            Columnsdt.HeaderText = "SĐT";
+            Columnsdt.MinimumWidth = 8;
+            Columnsdt.Name = "Columnsdt";
+            // 
+            // Columndiachi
+            // 
+            Columndiachi.DataPropertyName = "diachi";
+            Columndiachi.HeaderText = "Địa chỉ";
+            Columndiachi.MinimumWidth = 8;
+            Columndiachi.Name = "Columndiachi";
+            // 
+            // ColumnDelete
+            // 
+            ColumnDelete.HeaderText = "";
+            ColumnDelete.Image = Properties.Resources.trash;
+            ColumnDelete.MinimumWidth = 8;
+            ColumnDelete.Name = "ColumnDelete";
+            ColumnDelete.Resizable = DataGridViewTriState.True;
+            ColumnDelete.Visible = false;
+            // 
+            // ColumnChiTiet
+            // 
+            ColumnChiTiet.HeaderText = "";
+            ColumnChiTiet.Image = Properties.Resources.moredetail;
+            ColumnChiTiet.MinimumWidth = 8;
+            ColumnChiTiet.Name = "ColumnChiTiet";
+            ColumnChiTiet.Resizable = DataGridViewTriState.True;
+            // 
             // useraccount
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -245,6 +246,11 @@
         #endregion
 
         private DataGridView dataGridViewUser;
+        private Button buttonTimkiem;
+        private Button buttonupdate;
+        private ComboBox comboBoxTimKiem;
+        private TextBox textBoxTimKiem;
+        private PictureBox pictureBox1;
         private DataGridViewTextBoxColumn Columnaccount;
         private DataGridViewTextBoxColumn ColumnHo;
         private DataGridViewTextBoxColumn ColumnTen;
@@ -255,10 +261,5 @@
         private DataGridViewTextBoxColumn Columndiachi;
         private DataGridViewImageColumn ColumnDelete;
         private DataGridViewImageColumn ColumnChiTiet;
-        private Button buttonTimkiem;
-        private Button buttonupdate;
-        private ComboBox comboBoxTimKiem;
-        private TextBox textBoxTimKiem;
-        private PictureBox pictureBox1;
     }
 }

@@ -67,14 +67,14 @@ namespace GUI.Home
         {
             isactive = !isactive;
             OpenChildForm(new UserAccount.useraccount(),sender);
-            labelHome.Text = "Thông tin tài khoản";
+            labelHome.Text = "           Thông tin tài khoản";
         }
 
         private void buttonQLHợpĐồng_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
             OpenChildForm(new Contract.ContractMain(), sender);
-            labelHome.Text = "Thông tin hợp đồng";
+            labelHome.Text = "           Thông tin hợp đồng";
         }
 
         private void buttonQLChuyen_Click(object sender, EventArgs e)
@@ -82,28 +82,28 @@ namespace GUI.Home
 
             isactive = !isactive;
             OpenChildForm(new Chuyen.Chuyen(), sender);
-            labelHome.Text = "Thông tin chuyến";
+            labelHome.Text = "          Thông tin chuyến";
         }
 
         private void buttonQLPhanCong_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
             OpenChildForm(new PhanCong_DiemDanh.PhanCong_DiemDanh(), sender);
-            labelHome.Text = "Quản lý phân công";
+            labelHome.Text = "          Quản lý phân công";
         }
 
         private void buttonQLDoanhThu_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
             OpenChildForm(new Payment.PaymentMain(), sender);
-            labelHome.Text = "Doanh thu";
+            labelHome.Text = "                  Doanh thu";
         }
 
         private void buttonQLNhanVien_Click(object sender, EventArgs e)
         {
             isactive = !isactive;
             OpenChildForm(new Employee.Employee(),sender);
-            labelHome.Text = "Thông tin nhân viên";
+            labelHome.Text = "          Thông tin nhân viên";
         }
     }
 }

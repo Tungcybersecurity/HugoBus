@@ -35,18 +35,21 @@ namespace GUI.Employee
             {
                 int row = e.RowIndex;
                 int idtaixe = int.Parse(dataGridViewTaiXe.Rows[row].Cells["ColumnId"].Value.ToString());
-                if (service.xoaTaiXeById(idtaixe) == true)
+                DialogResult result = MessageBox.Show("Bạn có muốn xoá?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
                 {
-                    MessageBox.Show("Dữ liệu đã được xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dataGridViewTaiXe.DataSource = service.getDuLieu();
-                }
-                else
-                {
-                    MessageBox.Show("Dữ liệu xoá không thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                    if (service.xoaTaiXeById(idtaixe) == true)
+                    {
+                        MessageBox.Show("Dữ liệu xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dataGridViewTaiXe.DataSource = service.getDuLieu();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Dữ liệu xoá không thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
 
+                }
             }
-
             if (dataGridViewTaiXe.Columns[e.ColumnIndex] is DataGridViewImageColumn && dataGridViewTaiXe.Columns[e.ColumnIndex].Name == "ColumnChiTiet")
             {
                 int row = e.RowIndex;
@@ -89,12 +92,29 @@ namespace GUI.Employee
 
                 objexcelapp.Columns.AutoFit();
 
-                objexcelapp.ActiveWorkbook.SaveCopyAs(folderpath);
-                objexcelapp.ActiveWorkbook.Saved = true;
-                objexcelapp.Quit();
+                try
+                {
+                    objexcelapp.ActiveWorkbook.SaveCopyAs(folderpath);
+                    objexcelapp.ActiveWorkbook.Saved = true;
 
-                // Giải phóng tài nguyên
-                System.Runtime.InteropServices.Marshal.ReleaseComObject(objexcelapp);
+                    if (File.Exists(folderpath))
+                    {
+                        MessageBox.Show("Xuất file excel thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Lưu file thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    objexcelapp.Quit();
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(objexcelapp);
+                }
 
 
 
@@ -126,15 +146,22 @@ namespace GUI.Employee
             {
                 int row = e.RowIndex;
                 int idbaomau = int.Parse(dataGridViewBaoMau.Rows[row].Cells["cotid"].Value.ToString());
-                if (service2.xoaNannyById(idbaomau) == true)
-                {
-                    MessageBox.Show("Dữ liệu đã được xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    dataGridViewBaoMau.DataSource = service2.getDuLieu();
+                
+                    DialogResult result = MessageBox.Show("Bạn có muốn xoá?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                   if (result == DialogResult.Yes)
+                    {
+                        if(service2.xoaNannyById(idbaomau)==true)
+                        {
+                            MessageBox.Show("Dữ liệu xoá thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            dataGridViewBaoMau.DataSource = service2.getDuLieu();
+                        }
+                    else
+                    {
+                        MessageBox.Show("Dữ liệu xoá không thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
                 }
-                else
-                {
-                    MessageBox.Show("Dữ liệu xoá không thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                
 
             }
 
@@ -180,12 +207,29 @@ namespace GUI.Employee
 
                 objexcelapp.Columns.AutoFit();
 
-                objexcelapp.ActiveWorkbook.SaveCopyAs(folderpath);
-                objexcelapp.ActiveWorkbook.Saved = true;
-                objexcelapp.Quit();
+                try
+                {
+                    objexcelapp.ActiveWorkbook.SaveCopyAs(folderpath);
+                    objexcelapp.ActiveWorkbook.Saved = true;
 
-                // Giải phóng tài nguyên
-                System.Runtime.InteropServices.Marshal.ReleaseComObject(objexcelapp);
+                    if (File.Exists(folderpath))
+                    {
+                        MessageBox.Show("Xuất file excel thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Lưu file thất bại.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
+                    objexcelapp.Quit();
+                    System.Runtime.InteropServices.Marshal.ReleaseComObject(objexcelapp);
+                }
             }
 
         }
