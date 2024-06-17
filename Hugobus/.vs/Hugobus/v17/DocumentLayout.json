@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\hugobus\\phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\timchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\hugobus\\phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:phancong_diemdanh\\phancong_diemdanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\dao\\phancongdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E86224D1-9EDB-4231-8DBC-A7E76382112D}|..\\BUS\\BUS.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\bus\\employeenannybus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\dao\\employeenannydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39C4AC83-23CB-42BB-86C6-759FAB008240}|..\\DAO\\DAO.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\dao\\paymentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:payment\\paymentmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\hugobus\\employee\\taixe\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\employee\\taixe\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\taixe\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|d:\\detainhom18\\cuatuan4\\hugobus_form\\hugobus\\employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F14E5B57-9CE0-45B2-8588-10040B494151}|GUI.csproj|solutionrelative:employee\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Detail.cs",
-              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\TaiXe\\Detail.cs",
-              "RelativeDocumentMoniker": "Employee\\TaiXe\\Detail.cs",
-              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\TaiXe\\Detail.cs",
-              "RelativeToolTip": "Employee\\TaiXe\\Detail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:22:56.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\Employee.cs",
-              "RelativeDocumentMoniker": "Employee\\Employee.cs",
-              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\Employee.cs",
-              "RelativeToolTip": "Employee\\Employee.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAswNsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T21:22:33.652Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -72,15 +70,126 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhanCong_DiemDanh.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "RelativeToolTip": "PhanCong_DiemDanh\\PhanCong_DiemDanh.cs",
+              "ViewState": "AQIAAAABAAAAxszMzAwlwNkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:40:07.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TimChuyen.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs",
+              "RelativeDocumentMoniker": "PhanCong_DiemDanh\\TimChuyen.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\PhanCong_DiemDanh\\TimChuyen.cs",
+              "RelativeToolTip": "PhanCong_DiemDanh\\TimChuyen.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwE8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:40:07.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhanCongDAO.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\PhanCongDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\PhanCongDAO.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\PhanCongDAO.cs",
+              "RelativeToolTip": "..\\DAO\\PhanCongDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:42:00.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeNannyBUS.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\BUS\\EmployeeNannyBUS.cs",
+              "RelativeDocumentMoniker": "..\\BUS\\EmployeeNannyBUS.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\BUS\\EmployeeNannyBUS.cs",
+              "RelativeToolTip": "..\\BUS\\EmployeeNannyBUS.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:34:49.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeNannyDAO.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\EmployeeNannyDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\EmployeeNannyDAO.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\EmployeeNannyDAO.cs",
+              "RelativeToolTip": "..\\DAO\\EmployeeNannyDAO.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAswAUBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:34:03.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentDAO.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\PaymentDAO.cs",
+              "RelativeDocumentMoniker": "..\\DAO\\PaymentDAO.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\DAO\\PaymentDAO.cs",
+              "RelativeToolTip": "..\\DAO\\PaymentDAO.cs",
+              "ViewState": "AQIAABQBAAAAAAAAAAAowEgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:32:42.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentMain.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Payment\\PaymentMain.cs",
+              "RelativeDocumentMoniker": "Payment\\PaymentMain.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Payment\\PaymentMain.cs",
+              "RelativeToolTip": "Payment\\PaymentMain.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAkwK0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:31:51.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Detail.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\TaiXe\\Detail.cs",
+              "RelativeDocumentMoniker": "Employee\\TaiXe\\Detail.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\TaiXe\\Detail.cs",
+              "RelativeToolTip": "Employee\\TaiXe\\Detail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:22:56.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee\\Employee.cs",
+              "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Employee\\Employee.cs",
+              "RelativeToolTip": "Employee\\Employee.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAvwJ4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T21:22:33.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PaymentMain.cs [Design]",
               "DocumentMoniker": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Payment\\PaymentMain.cs",
               "RelativeDocumentMoniker": "Payment\\PaymentMain.cs",
               "ToolTip": "D:\\Detainhom18\\cuaTuan4\\HugoBus_Form\\Hugobus\\Payment\\PaymentMain.cs [Design]",
               "RelativeToolTip": "Payment\\PaymentMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T11:28:18.235Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-11T11:28:18.235Z"
             }
           ]
         }

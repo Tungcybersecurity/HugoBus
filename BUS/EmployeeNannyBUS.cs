@@ -39,5 +39,9 @@ namespace BUS
         {
             return (new EmployeeNannyDAO().doDuLieuTimKiem(loai, value));
         }
+        public DataTable getLich(int id, string day)
+        {
+            return (new EmployeeNannyDAO().getListJob(id, day));
+        }
     }
 }

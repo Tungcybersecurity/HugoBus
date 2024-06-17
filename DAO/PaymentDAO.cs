@@ -160,7 +160,7 @@ namespace DAO
             try
             {
                 con.Open();
-                string sql = "SELECT idThanhToan as 'ID thanh toán', idHopDong as 'ID hợp đồng', SoTienCanThanhToan as 'Số tiền thanh toán', NgayThanhToan as 'Ngày thanh toán', PhuongThucThanhToan as 'Phương thức thanh toán' FROM thanhtoan;";
+                string sql = "SELECT tt.idThanhToan as 'ID thanh toán', tt.idHopDong as 'ID hợp đồng', tt.SoTienCanThanhToan as 'Số tiền thanh toán', tt.NgayThanhToan as 'Ngày thanh toán', tt.PhuongThucThanhToan as 'Phương thức thanh toán' FROM thanhtoan tt JOIN hopdong hd ON tt.idHopDong = hd.idHopDong WHERE hd.idTrangThai NOT IN (5, 6);";
                 MySqlCommand cmd = new MySqlCommand(sql, con);
                 cmd.CommandType = CommandType.Text;
                 MySqlDataAdapter dataAdapter = new MySqlDataAdapter(cmd);

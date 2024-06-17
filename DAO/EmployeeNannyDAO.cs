@@ -264,5 +264,29 @@ namespace DAO
                 con.Close();
             }
         }
+
+        public DataTable getListJob(int idbaomau, string ngay)
+        {
+            Connection connect = new Connection();
+            MySqlConnection con = connect.getConnection();
+            try
+            {
+                con.Open();
+                string sql = "SELECT \r\n    thongtindiadiemtram.tentram, \r\n    thongtindiadiemtruong.tentruong,\r\n    chitiethopdong.buoi,\r\n    hocsinh.idhocsinh,\r\n    hocsinh.ho, \r\n    hocsinh.ten,\r\n    phancongduadon.idchuyen\r\n    \r\nFROM \r\n    phancongduadon \r\nJOIN \r\n    chuyen ON phancongduadon.idchuyen = chuyen.idchuyen \r\nJOIN \r\n    chitiethopdong ON phancongduadon.idchitiet = chitiethopdong.idchitiet \r\nJOIN \r\n    hopdong ON chitiethopdong.idhopdong = hopdong.idhopdong \r\nJOIN \r\n    thongtindiadiemtram ON hopdong.idtramdon = thongtindiadiemtram.idtram \r\nJOIN \r\n    thongtindiadiemtruong ON hopdong.idtruong = thongtindiadiemtruong.idtruong \r\nJOIN \r\n    hocsinh ON hopdong.idhocsinh = hocsinh.idhocsinh \r\nWHERE \r\n    chuyen.idtaixe = @id \r\n    AND phancongduadon.ngayduadon = @ngay;";
+                MySqlCommand cmd = new MySqlCommand(sql, con);
+                cmd.Parameters.AddWithValue("@id", idbaomau);
+                cmd.Parameters.AddWithValue("@ngay", ngay);
+                MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                adapter.Fill(dt);
+                con.Close();
+                return dt;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
     }
 }

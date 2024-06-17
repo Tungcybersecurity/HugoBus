@@ -14,6 +14,7 @@ namespace GUI.Payment
     {
         int nhanThem = 0;
         int nhanSua = 0;
+        string NgayThanhToan = string.Empty;
         string idThanhToan = string.Empty;
         PaymentBUS service = new PaymentBUS();
         public PaymentMain()
@@ -33,6 +34,7 @@ namespace GUI.Payment
             comboBoxPhuongThuc.Text = string.Empty;
             textBoxSoTien.Text = string.Empty;
             dateTimePickerNgayThanhToan.Format = DateTimePickerFormat.Custom;
+            //            dateTimePickerNgayThanhToan.MinDate = DateTime.Now;
             dateTimePickerNgayThanhToan.CustomFormat = "yyyy-MM-dd";
             dateTimePickerNgayThanhToan.Text = string.Empty;
         }
@@ -48,9 +50,7 @@ namespace GUI.Payment
             if (nhanThem == 0)
             {
                 nhanThem = 1;
-                textBoxIDHopDong.Enabled = true;
                 comboBoxPhuongThuc.Enabled = true;
-                textBoxSoTien.Enabled = true;
                 dateTimePickerNgayThanhToan.Enabled = true;
                 return;
             }
@@ -59,10 +59,10 @@ namespace GUI.Payment
                 if (textBoxIDHopDong.Text != string.Empty && comboBoxPhuongThuc.Text != string.Empty && textBoxSoTien.Text != string.Empty && dateTimePickerNgayThanhToan.Text != string.Empty)
                 {
 
-                    int kq = new PaymentBUS().themThanhToan(textBoxIDHopDong.Text, Int32.Parse(textBoxSoTien.Text), dateTimePickerNgayThanhToan.Text, comboBoxPhuongThuc.Text);
+                    int kq = new PaymentBUS().suaThanhToan(textBoxIDHopDong.Text, Int32.Parse(textBoxSoTien.Text), dateTimePickerNgayThanhToan.Text, comboBoxPhuongThuc.Text, idThanhToan);
                     if (kq > 0)
                     {
-                        MessageBox.Show("Thêm thành công");
+                        MessageBox.Show("Xác nhận thanh toán thành công");
                         int updateTrangThai = new ContractBUS().updateTrangThai(textBoxIDHopDong.Text, 7);
                         string loai = "1";
                         string TenThongBao = "Hợp đồng: ID = " + textBoxIDHopDong.Text + ", trạng thái: Đã thanh toán, chờ hiệu lực";
@@ -74,7 +74,7 @@ namespace GUI.Payment
                     }
                     else
                     {
-                        MessageBox.Show("Thêm thất bại");
+                        MessageBox.Show("Xác nhận thất bại");
                     }
                     //MessageBox.Show(comboBoxIDHopDong.Text + ", " + comboBoxPhuongThuc.Text + ", " + textBoxSoTien.Text + ", " + dateTimePickerNgayThanhToan.Text);
                     nhanThem = 0;
@@ -93,7 +93,6 @@ namespace GUI.Payment
             if (nhanSua == 0)
             {
                 nhanSua = 1;
-                textBoxIDHopDong.Enabled = true;
                 comboBoxPhuongThuc.Enabled = true;
                 textBoxSoTien.Enabled = true;
                 dateTimePickerNgayThanhToan.Enabled = true;
@@ -128,6 +127,11 @@ namespace GUI.Payment
             }
             else
             {
+                if (NgayThanhToan == string.Empty || NgayThanhToan == null)
+                {
+                    MessageBox.Show("Không thể xóa");
+                    return;
+                }
                 int kq = new PaymentBUS().xoaThanhToan(idThanhToan);
                 if (kq > 0)
                 {
